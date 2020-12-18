@@ -25,7 +25,7 @@ $.ajax("https://spreadsheets.google.com/feeds/list/11wvPAVvRzcKv7hORaWcsidISosUx
 console.log(projects)
 ///////////// USE JQUERY TO RENDER PROJECTS ON PAGE /////////////
 
-
+console.log()
 
 ////////////////////////////////////////////////////////
 
