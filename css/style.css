@@ -2,17 +2,19 @@
 ****** PROJECT SETUP
 ******************************************* */
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;800;900&family=Roboto:wght@300&display=swap');
+
 /* VARIABLES */
 :root {
   /* MAIN COLORS */
-  --main: black;
-  --secondary: white;
-  --accent: red;
+  --main: #2F4F4F;
+  --secondary: #FAEBD7;
+  --accent: #DAA520;
 
   /* FONTS */
-  --title: serif;
-  --text: aerial;
-}
+  font-family: 'Playfair Display', serif;
+  font-family: 'Roboto', sans-serif;
+}  
 
 /* GLOBAL STYLES */
 * {
