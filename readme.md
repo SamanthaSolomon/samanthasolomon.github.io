@@ -6,12 +6,16 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Day 1| Project Description | Incomplete
-|Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
-|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 5| MVP & Bug Fixes | Incomplete
-|Day 6| Final Touches | Incomplete
-|Day 7| Present | Incomplete
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 1.5| Core Application Structure for mobile (HTML, CSS, etc.) | Incomplete
+|Day 2| Core Application Structure for mobile(HTML, CSS, etc.) | Incomplete
+|Day 3| Javascrip and jquery for work page | Incomplete
+|Day 4| Media queries & and responsiveness to tablet and desktop | Incomplete
+|Day 5| MVP & Bug Fixes| Incomplete
+|Day 6| Bugs/Post MVP | Incomplete
+|Day 7| Final Touches | Incomplete
+|Day 8| Record video | Incomplete
 
 ### Project Description
 A portfolio website that showcases my work. Must include the following deviverables and requirementsts.
@@ -19,11 +23,11 @@ A portfolio website that showcases my work. Must include the following deviverab
 **Deliverables**
 - An About, Projects, Contact form (connected to your own account on Fromspree)
 - A mobile nav that expands and collapses when a user clicks on the hamburger icon.
-- "Mobile first" design approach.
+- ~~"Mobile first" design approach.~~
 - A Git repository, hosted on your personal GitHub
 	- ~~Includes a link to your hosted site~~
 	- ~~Site url should be in the form of githubusername.github.io~~
-	- An updated project worksheet with all sections filled out accordingly.
+	- ~~An updated project worksheet with all sections filled out accordingly.~~
 	- Repo must contain frequent commits (minimum 15+) dating back to the beginning of the project.
 - A 3 min recording
  	- DUE: 1/4/2021
@@ -60,21 +64,21 @@ Link To Site  | One Thing I'd Like To Incorporate |
 ## Wireframes
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 - Mobile
-	- [home](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574961/Portfolio_-Mobile-_home_gsgeqz.png)
-	- [Menu](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574961/Portfolio_-_Mobile-menu_l57ryb.png)
-	- [About](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574961/Profile-_Mobile-About_ke5uay.png)
-	- [Projects](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574960/Profile-Mobile-_Projects_yfxxkv.png)
-	- [Contact](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574960/Profile-_mobile_contact_f01vfn.png)
+	- [Home](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608582409/Portfolio-%20Wireframs/Portfolio-Mobile-home_gv7drk.png)
+	- [Menu](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608582409/Portfolio-%20Wireframs/Portfolio-mobile-menu_eqxts9.png)
+	- [About](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608582409/Portfolio-%20Wireframs/Portfolio-mobile-about_vnqr1u.png)
+	- [Work](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608582409/Portfolio-%20Wireframs/Porfolio-mobile-work_g7bjhe.png)
+	- [Contact](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608582408/Portfolio-%20Wireframs/Portfolio-mobile-contact_x8esxu.png)
 - Tablet 
-	- [home](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574960/Tablet-home_keo0ar.png)
-	- [About](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574961/Tablet-About_paerds.png)
-	- [Projects](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574961/Tablet-Projects_p7yyoc.png)
-	- [Contact](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574959/Tablet-Contact_kvhdfj.png)
+	- [Home](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608582408/Portfolio-%20Wireframs/Portfolio-tablet-home_mvm7fu.png)
+	- [About](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608582408/Portfolio-%20Wireframs/Portfolio-tablet-about_v9paqx.png)
+	- [Work](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608582409/Portfolio-%20Wireframs/Portfolio-tablet-work_s8wh7z.png)
+	- [Contact](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608582407/Portfolio-%20Wireframs/Portfolio-Tablet-contact_kmnbjs.png)
 - Desktop
-	- [home](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574961/Home-Desktop1_cxyhsg.png)
-	- [About](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574959/Home-About_dsarqn.png)
-	- [Projects](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574959/Projects-Desktop_krq06j.png)
-	- [Contact](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574959/Projects_Contact_oqt3mw.png)
+	- [Home](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608582408/Portfolio-%20Wireframs/Portfolio-desktop-home_za31tq.png)
+	- [About](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608582410/Portfolio-%20Wireframs/Portfolio-Desktop-About_egmscn.png)
+	- [Work](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608582408/Portfolio-%20Wireframs/Portfolio-Desktop-Work_pgkup5.png)
+	- [Contact](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608582407/Portfolio-%20Wireframs/Portfolio-Desktop-Contact_thslfq.png)
 
 
 
@@ -106,6 +110,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 - Carosel for project cards (L)
 - Hamburger animarion on mobile & tablet (M)
 	 - Hamburger lines cross
+- box frames on home page responsive to window size
 
 ## Functional Components
 
@@ -128,13 +133,15 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | Hover animation on nav menu items | H | 4hr | hr |
 | Hover animation on project card| L | 4hr | hr |
 | Carosel for project cards | M | 4hr | hr |
-| Hamburger animation on mobile & tablet | H | 4hr | hr |
-| Total | H | 16hrs| hrs |
+| Hamburger animation on mobile | L | 4hr | hr |
+| box frames on home page responsive to window size | M | 3hr | hr |
+| Total | H | 19hrs| hrs |
 
 ## Additional Libraries
  
 
- - Font: [Playfair Display](https://fonts.google.com/specimen/Playfair+Display?category=Serif)
+ - Font: H1-4 [Playfair Display](https://fonts.google.com/specimen/Playfair+Display?category=Serif)
+ - Font: p [Roboto Light](https://fonts.google.com/specimen/Roboto?category=Sans+Serif&query=Roboto)
 
 ## Code Snippet
 ___Use this section to include a brief code snippet of functionality that you are proud of an a brief description___  
