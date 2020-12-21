@@ -60,8 +60,21 @@ Link To Site  | One Thing I'd Like To Incorporate |
 ## Wireframes
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 - Mobile
+	- [home](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574961/Portfolio_-Mobile-_home_gsgeqz.png)
+	- [Menu](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574961/Portfolio_-_Mobile-menu_l57ryb.png)
+	- [About](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574961/Profile-_Mobile-About_ke5uay.png)
+	- [Projects](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574960/Profile-Mobile-_Projects_yfxxkv.png)
+	- [Contact](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574960/Profile-_mobile_contact_f01vfn.png)
 - Tablet 
+	- [home](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574960/Tablet-home_keo0ar.png)
+	- [About](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574961/Tablet-About_paerds.png)
+	- [Projects](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574961/Tablet-Projects_p7yyoc.png)
+	- [Contact](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574959/Tablet-Contact_kvhdfj.png)
 - Desktop
+	- [home](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574961/Home-Desktop1_cxyhsg.png)
+	- [About](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574959/Home-About_dsarqn.png)
+	- [Projects](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574959/Projects-Desktop_krq06j.png)
+	- [Contact](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608574959/Projects_Contact_oqt3mw.png)
 
 
 
