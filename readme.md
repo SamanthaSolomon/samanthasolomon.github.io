@@ -1,5 +1,5 @@
-# Project Overview - this is an H1
-## Project Schedule - this is an h2
+# Unit 1: Portfolio Project Overview
+## Project Schedule
 This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
 
 You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
@@ -13,32 +13,56 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 5| Final Touches | Incomplete
 |Day 6| Present | Incomplete
 
-### Project Description - this is an h3 and so on
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the _concept_ and\or **functionaliy**
+### Project Description
+A portfolio website that showcases my work. Must include the following deviverables and requirementsts.
 
-Google Sheet - can also do h2 this way
+**Deliverables**
+- An About, Projects, Contact form (connected to your own account on Fromspree)
+- A mobile nav that expands and collapses when a user clicks on the hamburger icon.
+- "Mobile first" design approach.
+- A Git repository, hosted on your personal GitHub
+	- ~~Includes a link to your hosted site~~
+	- ~~Site url should be in the form of githubusername.github.io~~
+	- An updated project worksheet with all sections filled out accordingly.
+	- Repo must contain frequent commits (minimum 15+) dating back to the beginning of the project.
+- A 3 min recording
+ 	- DUE: 1/4/2021
+	- INCLUDE:
+	- Functionality
+	- responsive design: Desktop, Tablet, and Mobile
+	- Project worksheet
+
+**Requirements**
+- Use semantic markup for HTML and CSS, adhering to best practices.
+- Use CSS GRID to create a multi-column layout
+- Use Flexbox for content
+- Must be mobile mobile first, then tablet and desktop responsive
+- ~~Must pull in projects via API call from google sheet~~
+- ~~Be deployed and accessible online either via Github Pages or Surge.~~
+
+
+Google sheet [here.](https://spreadsheets.google.com/feeds/list/11wvPAVvRzcKv7hORaWcsidISosUxtyNx0AuugxxMwyo/1/public/full?alt=json)
 -------------------------
-Include link to your google sheet here.  Here is the sample [Joe had used in class](https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0) 
 
 ## Portfolio I want to Emulate
 Search and compare at least 3 profile web sites.  Record your findings in the table below and include some aspect of the site that you would like to ~~incorporate~~ into your own site.
 
 Link To Site  | One Thing I'd Like To Incorporate | 
 | ------------- | ------------- |
-| [denisechandler.com](http://www.denisechandler.com/%7C) |landing page animation
-|jkeohan.com <http://jkeohan.com/> | mouseover on a project triggers animations |
-| [mattfarley.ca][1] |  layout of the projects
+| https://zanegriffin.github.io/portfolioSite/index.html#home-page | side nav that stays in place while navigating the site in desktop
+|https://www.loftgarten.co/work| hamburger menu engages side nav that fills the whole page in mobile, also typography general framwork|
+| https://www.wvth.nl/ |  underline animation on links during mouse over and "drag me" carosel
+| https://www.awwwards.com/websites/portfolio/| project cards with details and mouse over reaction |  
+|https://www.grovelust.be/projects/| minimal color palette, architectual asthetic |
 ---
-[1]:(http://mattfarley.ca/)
+
 
 ## Wireframes
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 - [Mobile](https://i.imgur.com/P3iBEZf.jpg)
 - [Desktop](https://i.imgur.com/xpOWo0E.jpg)
 
-Wireframing Resources:
-- [Mockflow](https://mockflow.com/app/#Wireframe)
-- [Figma](https://www.figma.com/)
+
 
 ## Time/Priority Matrix 
 [Link](https://res.cloudinary.com/jkeohan/image/upload/a_270/v1591621734/project1_matrix_ocy5gc_h1kg0m.jpg)
@@ -107,6 +131,3 @@ did you try `console.log()`
 ## Issues and Resolutions
  Use this section to list of all major issues encountered and their resolution.
 
- ![Look at this image, this is alternate text](https://photographylife.com/wp-content/uploads/2017/05/img013-1200-copy.jpg)
-
-  <img src= "https://photographylife.com/wp-content/uploads/2017/05/img013-1200-copy.jpg" width = 150px height = 150px>
