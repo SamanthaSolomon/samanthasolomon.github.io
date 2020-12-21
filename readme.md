@@ -9,9 +9,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 1| Project Description | Incomplete
 |Day 1| Wireframes / Priority Matrix / Timeline | Incomplete
 |Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|Day 4| MVP & Bug Fixes | Incomplete
-|Day 5| Final Touches | Incomplete
-|Day 6| Present | Incomplete
+|Day 5| MVP & Bug Fixes | Incomplete
+|Day 6| Final Touches | Incomplete
+|Day 7| Present | Incomplete
 
 ### Project Description
 A portfolio website that showcases my work. Must include the following deviverables and requirementsts.
@@ -132,7 +132,9 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | Total | H | 16hrs| hrs |
 
 ## Additional Libraries
- ___Use this section to list all supporting libraries and thier role in the project.___ 
+ 
+
+ - Font: [Playfair Display](https://fonts.google.com/specimen/Playfair+Display?category=Serif)
 
 ## Code Snippet
 ___Use this section to include a brief code snippet of functionality that you are proud of an a brief description___  
