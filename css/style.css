@@ -12,8 +12,8 @@
   --accent: #DAA520;
 
   /* FONTS */
-  font-family: 'Playfair Display', serif;
-  font-family: 'Roboto', sans-serif;
+  --title: font-family: 'Playfair Display', serif;
+  --text: font-family: 'Roboto', sans-serif;
 }  
 
 /* GLOBAL STYLES */
@@ -21,7 +21,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* outline: 2px solid gold; */
+  background-color: #2F4F4F;
+  
 }
 
 h1,
@@ -30,13 +31,90 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--title);
+  font-family: 'Playfair Display', serif;
+  font-size: 10px;
+  padding: 5px
 }
+/* Q - is the font size and padding pulling element above? */
 
 body {
-  font-family: var(--text);
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  color: #FAEBD7
 }
 
 /* *******************************************
 ****** PROJECT STYLES
 ******************************************* */
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+  text-align: center;
+  padding: 1rem;
+}
+
+h2 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #DAA520;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color: #DAA520;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+img {
+    max-width: 75%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+  }
+
+ul{
+  font-size: 1rem;
+}
+
+button{
+  border: none;
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  color: #FAEBD7;
+  font-size: 1rem;
+  font-weight: 500;
+  display: block;
+  padding: 1rem;
+}
+
+button:hover{
+  text-decoration: underline;
+}
+
+#social{
+  font-family: 'Playfair Display', serif;
+  text-decoration: none;
+  color: #FAEBD7;
+  font-size: 1rem;
+  font-weight: 500;
+}
