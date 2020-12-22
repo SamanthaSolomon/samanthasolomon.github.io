@@ -61,8 +61,19 @@ nav ul{
   margin: 1.5rem;
 }
 
+img {
+  max-width: 95%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+
 #bio{
   text-align: right;
+  padding-right: 1rem;
 }
 
 
@@ -78,6 +89,7 @@ h2 {
   font-size: 2rem;
   letter-spacing: 1px;
   font-weight: 800;
+  writing-mode: vertical-lr;
 }
 
 h3 {
@@ -97,6 +109,12 @@ h4 {
   letter-spacing: 1px;
 }
 
+.section-grid{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  padding-top: 15%;
+}
+
 #bio-box{
   border: solid 3px;
   border-color: #FAEBD7;
@@ -109,17 +127,33 @@ p {
   padding: 1rem;
 }
 
-img {
-    max-width: 95%;
+
+#skills-box{
+    border: solid 3px;
+    border-color: #FAEBD7;
+    margin: 1.5rem;
     height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1rem;
+  
   }
 
-ul{
+#skills-box ul {
+  font-family: 'Roboto', sans-serif;
   font-size: 1rem;
+  list-style-type:none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 5%;
+}
+
+#skills-box ul li{
+  justify-self: center;
+}
+
+#skills-box ul i{
+  display: block;
+  font-size: 2rem;
+  justify-self: center;
 }
 
 button{
