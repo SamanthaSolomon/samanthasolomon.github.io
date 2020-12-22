@@ -121,8 +121,8 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | Filling in project worksheet & deploying projects | H | 1hr | 1.5hr |
 | HTML structure | H | 1hr | 1.5hr |
 | Basic CSS for mobile | H | 2hr | hr |
-| Hamburger menu (including responsive) | H | 3hr | hr |
-| Nav menu slides out (bootstrap) | H | 2hr | hr |
+| Hamburger menu (including responsive)(bootstrap) | H | 3hr | hr |
+| Nav menu slides out (shoelace) | H | 2hr | hr |
 | About page | H | 2hrs + 1hr responsive | hr |  
 | Contact form | H | 3hrs + 1 responsive|  hr | 
 | skill section: w/icons| M | 3hrs + 1 responsive | hr|
