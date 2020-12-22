@@ -8,7 +8,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
-|Day 1.5| Core Application Structure for mobile (HTML, add work to project spreadsheet) | Incomplete
+|Day 1.5| Core Application Structure for mobile (HTML, add work to project spreadsheet) | Complete
 |Day 2| Core Application Structure for mobile(CSS) | Incomplete
 |Day 3| Javascrip and jquery for work page | Incomplete
 |Day 4| Media queries & and responsiveness to tablet and desktop | Incomplete
@@ -110,7 +110,8 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 - Carosel for project cards (L)
 - Hamburger animarion on mobile & tablet (M)
 	 - Hamburger lines cross
-- box frames on home page responsive to window size
+- box frames on home page responsive to window size (M)
+- fix projects (tarot & startup)(L)
 
 ## Functional Components
 
