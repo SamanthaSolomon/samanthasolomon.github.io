@@ -8,7 +8,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |---|---| ---|
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
-|Day 1.5| Core Application Structure for mobile (HTML, add work to project spreadsheet) | Incomplete
+|Day 1.5| Core Application Structure for mobile (HTML, add work to project spreadsheet) | Complete
 |Day 2| Core Application Structure for mobile(CSS) | Incomplete
 |Day 3| Javascrip and jquery for work page | Incomplete
 |Day 4| Media queries & and responsiveness to tablet and desktop | Incomplete
@@ -110,16 +110,19 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 - Carosel for project cards (L)
 - Hamburger animarion on mobile & tablet (M)
 	 - Hamburger lines cross
-- box frames on home page responsive to window size
+- box frames on home page responsive to window size (M)
+- fix projects (tarot & startup)(L)
 
 ## Functional Components
 
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Figuring out google sheets | H | 1hr | hr |
-| Hamburger menu (including responsive) | H | 3hr | hr |
-| Nav menu slides out (bootstrap) | H | 2hr | hr |
+| Filling in project worksheet & deploying projects | H | 1hr | 1.5hr |
+| HTML structure | H | 1hr | 1.5hr |
+| Basic CSS for mobile | H | 2hr | 2 hr |
+| Hamburger menu (including responsive)(bootstrap) | H | 3hr | hr |
+| Nav menu slides out (shoelace) | H | 2hr | hr |
 | About page | H | 2hrs + 1hr responsive | hr |  
 | Contact form | H | 3hrs + 1 responsive|  hr | 
 | skill section: w/icons| M | 3hrs + 1 responsive | hr|
