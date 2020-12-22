@@ -9,7 +9,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 1.5| Core Application Structure for mobile (HTML, add work to project spreadsheet) | Complete
-|Day 2| Core Application Structure for mobile(CSS) | Incomplete
+|Day 2| Core Application Structure for mobile(CSS) | Partially complete
 |Day 3| Javascrip and jquery for work page | Incomplete
 |Day 4| Media queries & and responsiveness to tablet and desktop | Incomplete
 |Day 5| MVP & Bug Fixes| Incomplete
@@ -123,9 +123,9 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | Basic CSS for mobile | H | 2hr | 2 hr |
 | Hamburger menu (including responsive)(bootstrap) | H | 3hr | hr |
 | Nav menu slides out (shoelace) | H | 2hr | hr |
-| About page | H | 2hrs + 1hr responsive | hr |  
-| Contact form | H | 3hrs + 1 responsive|  hr | 
-| skill section: w/icons| M | 3hrs + 1 responsive | hr|
+| About page | H | 2hrs + 1hr responsive | 1 hr |  
+| Contact form | H | 3hrs + 1 responsive|  1 hr | 
+| skill section: w/icons| M | 3hrs + 1 responsive | 2 hr|
 | Project gallery (bootstrap)| H | 3hrs + 1 responsive|  hr | 
 | Social Media Icons | L | 1hr |  hr |
 | Total | H | 22 hrs| hrs |
