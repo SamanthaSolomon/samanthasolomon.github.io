@@ -165,11 +165,16 @@ button{
   font-weight: 500;
   display: block;
   padding: 1rem;
+  text-align: right;
 }
 
 button:hover{
   text-decoration: underline;
 }
+
+/* form{
+  grid-area: 1 / 2 / 2 / 3;
+} */
 
 #social{
   font-family: 'Playfair Display', serif;
@@ -177,6 +182,8 @@ button:hover{
   color: #FAEBD7;
   font-size: 1rem;
   font-weight: 500;
+  grid-column-start: 2;
+  grid-column-end: 3;
 }
 
 

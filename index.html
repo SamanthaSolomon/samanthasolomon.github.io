@@ -90,7 +90,12 @@
     </section>
     <section class = section-grid>
       <h2>Contact</h2>
-      <button>Submit</button>
+      <form action="https://formspree.io/f/mbjppgbe" method="POST">
+          <label>Your email:<input type="text" name="_replyto" placeholder="Your email"></label>
+          <label>Your message:<textarea name="message"></textarea></label>
+          <input type="hidden" name="_subject" value="Hello from portfolio site"/>
+          <button type="submit">Send</button>
+      </form>
       <a id=social href="https://www.linkedin.com/in/samantha-solomon-3a059110/"><i class="fab fa-linkedin-in"></i>LinkedIn</a>
     </section>
   </body>
