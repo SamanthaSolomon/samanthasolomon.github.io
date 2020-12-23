@@ -48,6 +48,8 @@ body {
 ****** PROJECT STYLES
 ******************************************* */
 
+/************* HEADER-HOME ************/
+
 nav ul{
   font-family: 'Playfair Display', serif;
   font-weight: 800;
@@ -71,13 +73,6 @@ img {
   padding: 1rem;
 }
 
-
-#bio{
-  text-align: right;
-  padding-right: 1rem;
-}
-
-
 h1 {
   font-size: 2.5rem;
   font-weight: 800;
@@ -85,6 +80,14 @@ h1 {
   text-align: center;
   padding: 1rem;
 }
+
+/************* ABOUT ************/
+
+#bio{
+  text-align: right;
+  padding-right: 1rem;
+}
+
 
 h2 {
   font-size: 2rem;
@@ -128,6 +131,7 @@ p {
   padding: 1rem;
 }
 
+/************* SKILLS ************/
 
 #skills-box{
     border: solid 3px;
@@ -158,6 +162,10 @@ p {
   font-size: 2rem;
   justify-self: center;
 }
+
+/************* WORK ************/
+
+/************* CONTACT ************/
 
 button{
   border: none;
