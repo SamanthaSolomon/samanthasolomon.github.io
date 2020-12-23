@@ -132,7 +132,8 @@ p {
     border: solid 3px;
     border-color: #FAEBD7;
     margin: 1.5rem;
-    height: auto;
+    /* height: auto; */
+    min-height: 60vh;
   
   }
 
@@ -147,10 +148,11 @@ p {
 }
 
 #skills-box ul li{
+  display: grid;
   justify-self: center;
 }
 
-#skills-box ul i{
+.fab, .fas, .far{
   display: block;
   font-size: 2rem;
   justify-self: center;
