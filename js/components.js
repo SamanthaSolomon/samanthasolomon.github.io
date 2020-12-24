@@ -13,14 +13,12 @@ class MyCard extends HTMLElement{
         this.innerHTML = `
         <sl-card>
         <h5>${name}</h5>
-        <img src=${img} alt=${name} slot="image">
+        <img slot="image" src=${img} alt=${name}>
         <p>${description}<p>
         <sl-button-group>
             <a href=${live}<sl-button>Live</sl-button></a>
             <a href=${github}<sl-button>GitHub</sl-button></a>
         </sl-button-group>
-        
-        
         </sl-card> `
 
     }
