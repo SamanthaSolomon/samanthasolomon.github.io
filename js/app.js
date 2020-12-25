@@ -22,37 +22,28 @@ $.ajax("https://spreadsheets.google.com/feeds/list/11wvPAVvRzcKv7hORaWcsidISosUx
         }
     })
 
-console.log(projects)
-///////////// USE JQUERY TO RENDER PROJECTS ON PAGE /////////////
+    ///////////// USE JQUERY TO RENDER PROJECTS ON PAGE /////////////
+        for (i=0;i < projects.length; i++) {
+        const $div = $(
+            `<sl-card class="card-image">
+            <img slot="image" src=${projects[i].img} 
+            alt="${projects[i].name}">
+            <p>${projects[i].description}</p>
+            <sl-button-group>
+                <a href=${projects[i].live}<sl-button>Live</sl-button></a>
+                <a href=${projects[i].github}<sl-button>GitHub</sl-button></a>
+            </sl-button-group>
+        <style>
+        .card-image {
+            max-width: 300px;
+        }
+        </style>
+                </sl-card>`
+            )
+        $(".cards").append($div)
+    }
 
-// for (i=0;i < projects.length; i++) {
-//     const $div = $(
-//         `<div class="cards" style="width: 18rem;">
-//         <img src=${projects[i].img} class="card-img-top" alt="project">
-//         <div class="card-body">
-//         <h5 class="card-title">${projects[i].name}</h5>
-//         <p class="card-text">${projects[i].description}</p>
-//         <a href=${projects[i].live} class="btn">Check it out</a>
-//         </div>
-//         </div>`
-//     )
-// $("#projects").append($div)
-// }
-
-
-
-// const final = projects.map((project) => {
-//     return`
-//     <my-card name=${project.name} img=${project.img} description=${project.description} live=${project.live} github=${project.github}></my-card>
-//     `
-// })
-// console.log(final)
-
-// })
-
-// const $cards = $('.cards')
-
-// $cards.html(final.join(""))
+})
 
 
 ///////////// PULL DATA FROM BLOG FROM HEADLESS CMS /////////////
