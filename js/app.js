@@ -26,19 +26,59 @@ $.ajax("https://spreadsheets.google.com/feeds/list/11wvPAVvRzcKv7hORaWcsidISosUx
         for (i=0;i < projects.length; i++) {
         const $div = $(
             `<sl-card class="card-image">
-            <img slot="image" src=${projects[i].img} 
-            alt="${projects[i].name}">
-            <p>${projects[i].description}</p>
-            <sl-button-group>
-                <a href=${projects[i].live}<sl-button>Live</sl-button></a>
-                <a href=${projects[i].github}<sl-button>GitHub</sl-button></a>
-            </sl-button-group>
-        <style>
-        .card-image {
-            max-width: 300px;
-        }
-        </style>
-                </sl-card>`
+                <h5>${projects[i].name}</h5>
+                <img slot="image" src=${projects[i].img} 
+                alt="${projects[i].name}">
+                <p>${projects[i].description}</p>
+                <div slot="footer">
+                    <sl-button-group>
+                        <a href=${projects[i].live}<sl-button size medium Left>Live</sl-button></a>
+                        <a href=${projects[i].github}<sl-button>GitHub</sl-button></a>
+                    </sl-button-group>
+                </div>
+                <style>
+                    
+                    .card-image h5{
+                        font-family: 'Roboto', sans-serif;
+                        font-size: 1.5rem;
+                        text-align: center;
+                        background-color: #FAEBD7;
+                        color: #2F4F4F;
+                    }
+                    
+                    .card-image p{
+                        font-family: 'Roboto', sans-serif;
+                        background-color: #FAEBD7;
+                        color: #2F4F4F;
+                    }
+
+                    .card-image img{
+                        background-color: #FAEBD7;
+                        padding:0px;
+                        margin: 10px;
+                        border: 1px solid #2F4F4F;
+                    }
+                    .card-image::part(base){
+                        background-color: #FAEBD7;
+                    }
+
+                    .card-image {
+                        max-width: 300px;
+                        min-height: 700px;
+                        margin: 10px;
+
+                    }
+
+                    .card-image::part(body){
+                        background-color: #FAEBD7;
+                        padding: 10px; 
+                    }
+
+                    .card-image sl-button {
+                        border: 1px solid red;
+                    }
+                </style>
+            </sl-card>`
             )
         $(".cards").append($div)
     }
