@@ -304,7 +304,7 @@ button{
   font-family: 'Playfair Display', serif;
   text-decoration: none;
   color: #FAEBD7;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 500;
   display: block;
   padding: 1rem;
@@ -315,15 +315,33 @@ button:hover{
   text-decoration: underline;
 }
 
-form{
-  background-color: red;
+form label{
+  font-family: 'Playfair Display', serif;
+  color: #FAEBD7;
+  font-size: 2rem;
+}
+
+form input{
+  background-color: #EBD7A4;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: black;
+  height: 30px;
+  width: 60%;
+}
+
+form textarea{
+  background-color: #EBD7A4;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: black;
 }
 
 #social{
   font-family: 'Playfair Display', serif;
   text-decoration: none;
   color: #FAEBD7;
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 500;
   grid-column-start: 2;
   grid-column-end: 3;
