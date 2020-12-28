@@ -12,14 +12,16 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- *****************************BOOTSTRAP 5********************************** -->
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    
     <!--***************************FONT AWESOME****************************-->
 
     <script src="https://kit.fontawesome.com/cee7a6045c.js" crossorigin="anonymous"></script>
-
-    <!-- *****************************BOOTSTRAP 5********************************** -->
     
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
-
+    
     <!-- ***************************SHOELACE********************************** -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.23/dist/shoelace/shoelace.css">
     <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.23/dist/shoelace/shoelace.esm.js"></script>
@@ -33,29 +35,29 @@
 <!-- HEADER -->
 
   <header>
-    <nav>
-      <sl-drawer label="Drawer" placement="left" class="drawer-placement-left">
-        <ul>
-          <a href="#about"><li>About</li></a>
-          <a href="#skills"><li>Skills</li></a>
-          <a href="#work"><li>Work</li></a>
-          <a href="#contact"><li>Contact</li></a>
-        </ul>
-        <sl-button slot="footer" type="primary">Close</sl-button>
-      </sl-drawer>
-      
-      <sl-button>Open Drawer</sl-button>
-      
-      <script>
-        (() => {
-          const drawer = document.querySelector('.drawer-placement-left');
-          const openButton = drawer.nextElementSibling;
-          const closeButton = drawer.querySelector('sl-button[type="primary"]');
-      
-          openButton.addEventListener('click', () => drawer.show());
-          closeButton.addEventListener('click', () => drawer.hide());
-        })();
-      </script>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #FAEBD7">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
   
@@ -111,8 +113,8 @@
       <a id="social" href="https://www.linkedin.com/in/samantha-solomon-3a059110/"><i class="fab fa-linkedin-in"></i>LinkedIn</a>
     </section>
 
-<!-- ****************** BOOTSTRAP POPPER **************** -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script> -->
+<!-- ****************** BOOTSTRAP JS & POPPER **************** -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 
   </body>
 </html>
