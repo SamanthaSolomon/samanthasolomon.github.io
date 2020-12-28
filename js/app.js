@@ -30,10 +30,10 @@ $.ajax("https://spreadsheets.google.com/feeds/list/11wvPAVvRzcKv7hORaWcsidISosUx
                 <img slot="image" src=${projects[i].img} 
                 alt="${projects[i].name}">
                 <p>${projects[i].description}</p>
-                    <sl-button href=${projects[i].live}>Live</sl-button>
+                    <sl-button class="live-button" href=${projects[i].live}>Live</sl-button>
                     ${
                         projects[i].github !== "" ?
-                            `<sl-button href=${projects[i].github}>GitHub</sl-button>`
+                            `<sl-button class="gitHub-button" href=${projects[i].github}>GitHub</sl-button>`
                         : "" 
                     }
                 // terinary operator

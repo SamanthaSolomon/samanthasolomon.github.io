@@ -50,9 +50,61 @@ body {
 ****** PROJECT STYLES
 ******************************************* */
 
-/************* NAV ************/
+/************* NAV BAR ************/
 
+nav{
+  background-color: #FAEBD7;
+  height: 60px;
+}
 
+.menu-button{
+  width: 50px;
+  margin-top: 7px;
+  position: relative;
+  left: 80%;
+}
+
+.menu-button::part(base){
+  background-color: #FAEBD7;
+  border: none;
+}
+
+.menu-button i{
+  background-color: #FAEBD7;
+  color: #2F4F4F;
+}
+/************* NAV DRAWER ************/
+
+sl-drawer::part(body){
+  background-color: #FAEBD7;
+}
+
+sl-drawer::part(title){
+  background-color: #FAEBD7;
+  color: #2F4F4F;
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+}
+
+nav sl-drawer ul li{
+  background-color: #FAEBD7;
+}
+
+.nav-button{
+  background-color: #FAEBD7;
+  color: #2F4F4F;
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-size: 4em;
+  margin-top: 20%;
+  text-decoration: none;
+}
+
+sl-drawer::part(close-button){
+  background-color: #FAEBD7;
+  color: #2F4F4F;
+  font-size: 5em; 
+}
 
 /************* HOME ************/
 
@@ -73,13 +125,13 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 1rem;
+  padding: 2rem;
 }
 
 h1 {
-  font-size: 2.5rem;
-  font-weight: 800;
-  letter-spacing: 1.5px;
+  font-size: 5rem;
+  font-weight: 500;
+  letter-spacing: 2px;
   text-align: center;
   padding: 1rem;
 }
@@ -93,7 +145,7 @@ h1 {
 
 
 h2 {
-  font-size: 2rem;
+  font-size: 4rem;
   letter-spacing: 1px;
   font-weight: 800;
   writing-mode: vertical-lr;
@@ -102,7 +154,7 @@ h2 {
 h3 {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 2rem;
   color: #DAA520;
   text-align: center;
   letter-spacing: 1px;
@@ -111,7 +163,7 @@ h3 {
 h4 {
   text-transform: uppercase;
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 3rem;
   color: #DAA520;
   letter-spacing: 1px;
 }
@@ -130,7 +182,7 @@ h4 {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   padding: 1rem;
 }
 
@@ -140,15 +192,13 @@ p {
     border: solid 3px;
     border-color: #FAEBD7;
     margin: 1.5rem;
-    /* height: auto; */
-    min-height: 60vh;
-  
+    min-height: 45vh;
   }
 
 #skills-box ul {
   font-family: 'Roboto', sans-serif;
-  font-size: 1rem;
-  list-style-type:none;
+  font-size: 1.5rem;
+  list-style-type: none;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -160,9 +210,8 @@ p {
   justify-self: center;
 }
 
-.fab, .fas, .far{
-  display: block;
-  font-size: 2rem;
+#skills-box ul li i{
+  font-size: 3rem;
   justify-self: center;
 }
 
@@ -176,7 +225,7 @@ p {
 
 .card-image h5{
   font-family: 'Roboto', sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   background-color: #FAEBD7;
   color: #2F4F4F;
@@ -212,23 +261,40 @@ p {
 }
 
 
-sl-button {
+.live-button, .gitHub-button{
   display: flex;
   padding-bottom: 15px;
   background-color: #FAEBD7;
 }
 
-sl-button::part(label){
+.gitHub-button::part(label){
   font-family: 'Playfair Display', serif;
   font-weight: 800;
-  font-size: 1rem;
+  font-size: 2rem;
   letter-spacing: 1.5px;
   color: #2F4F4F;     
 }
 
-sl-button::part(base){
+.live-button::part(label){
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  color: #2F4F4F;  
+  padding-top: 5px;   
+}
+
+ .gitHub-button::part(base){
   background-color: #FAEBD7;  
   border: 3px solid #2F4F4F;
+  height: 40px;
+  padding-top: 5px;     
+}
+
+.live-button::part(base){
+  background-color: #FAEBD7;  
+  border: 3px solid #2F4F4F;
+  height: 40px;
 }
 
 /************* CONTACT ************/
