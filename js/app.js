@@ -30,11 +30,8 @@ $.ajax("https://spreadsheets.google.com/feeds/list/11wvPAVvRzcKv7hORaWcsidISosUx
                 <img slot="image" src=${projects[i].img} 
                 alt="${projects[i].name}">
                 <p>${projects[i].description}</p>
-                <div slot="footer">
-                    <sl-button-group>
-                        <a href=${projects[i].live}<sl-button size medium Left>Live</sl-button></a>
-                        <a href=${projects[i].github}<sl-button>GitHub</sl-button></a>
-                    </sl-button-group>
+                    <sl-button href=${projects[i].live}>Live</sl-button>
+                    <sl-button href=${projects[i].github}>GitHub</sl-button>
                 </div>
                 <style>
                     
@@ -55,7 +52,8 @@ $.ajax("https://spreadsheets.google.com/feeds/list/11wvPAVvRzcKv7hORaWcsidISosUx
                     .card-image img{
                         background-color: #FAEBD7;
                         padding:0px;
-                        margin: 10px;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
                         border: 1px solid #2F4F4F;
                     }
                     .card-image::part(base){
@@ -63,8 +61,8 @@ $.ajax("https://spreadsheets.google.com/feeds/list/11wvPAVvRzcKv7hORaWcsidISosUx
                     }
 
                     .card-image {
-                        max-width: 300px;
-                        min-height: 700px;
+                        max-width: 350px;
+                        min-height: 400px;
                         margin: 10px;
 
                     }
@@ -74,8 +72,24 @@ $.ajax("https://spreadsheets.google.com/feeds/list/11wvPAVvRzcKv7hORaWcsidISosUx
                         padding: 10px; 
                     }
 
-                    .card-image sl-button {
-                        border: 1px solid red;
+
+                    sl-button {
+                        display: flex;
+                        padding-bottom: 15px;
+                        background-color: #FAEBD7;
+                    }
+
+                    sl-button::part(label){
+                        font-family: 'Playfair Display', serif;
+                        font-weight: 800;
+                        font-size: 1rem;
+                        letter-spacing: 1.5px;
+                        color: #2F4F4F;     
+                    }
+
+                    sl-button::part(base){
+                        background-color: #FAEBD7;  
+                        border: 3px solid #2F4F4F;
                     }
                 </style>
             </sl-card>`
