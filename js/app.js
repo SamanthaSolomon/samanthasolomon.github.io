@@ -31,73 +31,40 @@ $.ajax("https://spreadsheets.google.com/feeds/list/11wvPAVvRzcKv7hORaWcsidISosUx
                 alt="${projects[i].name}">
                 <p>${projects[i].description}</p>
                     <sl-button href=${projects[i].live}>Live</sl-button>
-                    <sl-button href=${projects[i].github}>GitHub</sl-button>
+                    ${
+                        projects[i].github !== "" ?
+                            `<sl-button href=${projects[i].github}>GitHub</sl-button>`
+                        : "" 
+                    }
+                // terinary operator
+                // before ? is if
+                // after ? is if true return
+                // after : is if false return             
                 </div>
-                <style>
-                    
-                    .card-image h5{
-                        font-family: 'Roboto', sans-serif;
-                        font-size: 1.5rem;
-                        text-align: center;
-                        background-color: #FAEBD7;
-                        color: #2F4F4F;
-                    }
-                    
-                    .card-image p{
-                        font-family: 'Roboto', sans-serif;
-                        background-color: #FAEBD7;
-                        color: #2F4F4F;
-                    }
-
-                    .card-image img{
-                        background-color: #FAEBD7;
-                        padding:0px;
-                        margin-top: 10px;
-                        margin-bottom: 10px;
-                        border: 1px solid #2F4F4F;
-                    }
-                    .card-image::part(base){
-                        background-color: #FAEBD7;
-                    }
-
-                    .card-image {
-                        max-width: 350px;
-                        min-height: 400px;
-                        margin: 10px;
-
-                    }
-
-                    .card-image::part(body){
-                        background-color: #FAEBD7;
-                        padding: 10px; 
-                    }
-
-
-                    sl-button {
-                        display: flex;
-                        padding-bottom: 15px;
-                        background-color: #FAEBD7;
-                    }
-
-                    sl-button::part(label){
-                        font-family: 'Playfair Display', serif;
-                        font-weight: 800;
-                        font-size: 1rem;
-                        letter-spacing: 1.5px;
-                        color: #2F4F4F;     
-                    }
-
-                    sl-button::part(base){
-                        background-color: #FAEBD7;  
-                        border: 3px solid #2F4F4F;
-                    }
-                </style>
             </sl-card>`
             )
         $(".cards").append($div)
     }
 
 })
+
+
+/////////////////// NAV DRAWER ////////////
+
+
+$(() => {
+  const drawer = document.querySelector('.drawer-placement-left')
+  
+  const openButton = drawer.nextElementSibling
+  
+    const closeButton = $('.nav-button').on('click', () => {
+        drawer.hide()
+        })
+
+  openButton.addEventListener('click', () => drawer.show())
+  
+});
+
 
 
 ///////////// PULL DATA FROM BLOG FROM HEADLESS CMS /////////////

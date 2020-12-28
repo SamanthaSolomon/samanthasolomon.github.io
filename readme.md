@@ -149,21 +149,39 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 ## Code Snippet
 ___Use this section to include a brief code snippet of functionality that you are proud of an a brief description___  
 ```javascript
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+// shoelace Drawer customization for use as nav
+$(() => {
+  const drawer = document.querySelector('.drawer-placement-left')
+  
+  const openButton = drawer.nextElementSibling
+  
+    const closeButton = $('.nav-button').on('click', () => {
+        drawer.hide()
+        })
+
+  openButton.addEventListener('click', () => drawer.show())
+  
+});
 ```
 
 ## Issues and Resolutions
 - fonts using REM sizing not being responsive
+	-- added font-size in html tag
+
+- white space appears when bootstrap scripts are included in html file
+ 	-- background color on html tag changed, also avoided using bootstap
+
+- changeing certain cards that don't have github links, so they are not all the same
+ -- used terinary operator "if statement"
+
+- can't seem to target contact form
+	-- used form lable/input
 
 - button group not responding to flex or grid
 	- took out button grouping element and changed to individual buttons
 
 - Shoelace drawer used as nav not closing when links are clicked
- 	- Switched to bootstrap nav compontent
-
-- white space appears when bootstrap scripts are included in html file
+ 	- used jquery to remove close button and add event listener to close drawer on click of any button
 
 - Some image links broken in work section
 	-replaced links in data sheet
