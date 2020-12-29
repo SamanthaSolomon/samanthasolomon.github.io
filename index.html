@@ -24,79 +24,94 @@
 
     <!-- ************************YOUR CODE**************************************** -->
     <script src="./js/components.js" defer></script>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
     <script src="./js/app.js" defer></script>
   </head>
   
-<!-- HEADER -->
 
-  <header>
-    <nav>
-      <sl-drawer label="Menu" placement="left" class="drawer-placement-left">
-        <ul>
-          <li><a class="nav-button" href="#about">About</a></li>
-          <li><a class="nav-button" href="#skills">Skills</a></li>
-          <li><a class="nav-button" href="#work">Work</a></li>
-          <li><a class="nav-button" href="#contact">Contact</a></li>  
-      </ul>
-      </sl-drawer>
-      <sl-button class="menu-button"><i class="fas fa-bars fa-5x"></i></sl-button>
-    </nav>
-  </header>
   
 <!-- Main -->
 
   <body>
-    <section id="top-box">
-      <h1>Samantha Solomon</h1>
-      <h3>Designer + Developer</h3>
-      <img src="/Samantha-Solomon-2-BW-v2-copy.jpeg" alt="black and white photo of Samantha">
-    </section>
+    <header>
+      <nav>
+ 
+<!-- TABLET & DESKTOP NAV         -->
+        <ul class="tablet-desk-nav">
+          <li><a class="nav-button" href="#about">About</a></li>
+          <li><a class="nav-button" href="#skills">Skills</a></li>
+          <li><a class="nav-button" href="#work">Work</a></li>
+          <li><a class="nav-button" href="#contact">Contact</a></li>  
+        </ul>
 
-    <section class="section-grid">
-      <h2 id="about">About</h2>
-      <div id="bio-box">
-        <h4 id="bio">Bio</h4>
-          <p>Samantha worked in the communications sector for 11 years before pivoting to web application development. Though she is a junior developer, she has the mind of a manager and a modern asthetic, which she uses to create useful and beautiful applications. Samantha uses tight project management and resourceful design to solve complex problems one step at a time. She brings a passion for supporting community and connection into each deliverable.</p>
-     
-          <p>Samantha has worked in publishing, nonprofits, and the federal sector. She earned an MA in writing from The Johns Hopkins University and a BA in Communication and Media Studies from Goucher College. She will complete the Software Engineering Immersive at General Assembly in March 2021 and currently lives in Baltimore, MD.</p>
-      </div>
-    </section>
+<!-- MOBILE NAV         -->
+        <sl-drawer label="Menu" placement="left" class="drawer-placement-left">
+          <ul>
+            <li><a class="nav-button" href="#about">About</a></li>
+            <li><a class="nav-button" href="#skills">Skills</a></li>
+            <li><a class="nav-button" href="#work">Work</a></li>
+            <li><a class="nav-button" href="#contact">Contact</a></li>  
+          </ul>
+        </sl-drawer>
+        <sl-button class="menu-button"><i class="fas fa-bars fa-5x"></i></sl-button>
+      </nav>
+    </header>
 
-    <section id="skills-box">
-      <h4 id="skills">Skills</h4>
-      <ul>
-        <li><i class="fab fa-html5"></i>HTML</li>
-        <li><i class="fab fa-css3-alt"></i>CSS</li>
-        <li><i class="fab fa-js"></i>JS</li>
-        <li><i class="fas fa-code"></i>JQuery</li>
-        <li><i class="fab fa-bootstrap"></i>Bootstrap</li>
-        <li><i class="fas fa-shapes"></i></i>Shoelace</li>
-        <li><i class="fab fa-github"></i>GitHub</li>
-        <li><i class="fab fa-wordpress"></i>WordPress</li>
-        <li><i class="fab fa-mailchimp"></i>MailChimp</li>
-        <li><i class="far fa-object-ungroup"></i>Adobe InDesign</li>
-        <li><i class="fas fa-desktop"></i>Abode XD</li>
-      </ul>
-    </section>
+<!-- HOME     -->
+    <main>
+      <section id="top-box">
+        <h1>Samantha Solomon</h1>
+        <h3>Designer + Developer</h3>
+        <img src="/Samantha-Solomon-2-BW-v2-copy.jpeg" alt="black and white photo of Samantha">
+      </section>
 
-    <section class="section-grid">
-      <h2 id="work">Work</h2>
-      <div class="cards"></div>
-    </section>
+<!-- ABOUT       -->
+      <section class="section-grid">
+        <h2 id="about">About</h2>
+        <div id="bio-box">
+          <h4 id="bio">Bio</h4>
+            <p>Samantha worked in the communications sector for 11 years before pivoting to web application development. She is a developer with the mind of a manager and a modern asthetic, which she uses to create useful and beautiful applications. Samantha uses tight project management and resourceful design to solve complex problems one step at a time. She brings a passion for supporting community and connection into each deliverable.</p>
+      
+            <p>Samantha has worked in publishing, nonprofits, and the federal sector. She earned an MA in writing from The Johns Hopkins University and a BA in Communication and Media Studies from Goucher College. She will complete the Software Engineering Immersive at General Assembly in March 2021 and currently lives in Baltimore, MD.</p>
+        </div>
+      </section>
 
-    <section class="contact-grid">
-      <h2 id="contact">Contact</h2>
-      <form action="https://formspree.io/f/mbjppgbe" method="POST">
-          <label>Email</label><input type="text" name="_replyto" placeholder="Your email">
-          <label>Message</label><textarea name="message" placeholder="Say hello"></textarea>
-          <input type="hidden" name="_subject" value="Hello from portfolio site"/>
-          <button type="submit">Send</button>
-      </form>
-      <a id="social" href="https://www.linkedin.com/in/samantha-solomon-3a059110/"><i class="fab fa-linkedin-in"></i>LinkedIn</a>
-    </section>
+      <section id="skills-box">
+        <h4 id="skills">Skills</h4>
+        <ul>
+          <li><i class="fab fa-html5"></i>HTML</li>
+          <li><i class="fab fa-css3-alt"></i>CSS</li>
+          <li><i class="fab fa-js"></i>JS</li>
+          <li><i class="fas fa-code"></i>JQuery</li>
+          <li><i class="fab fa-bootstrap"></i>Bootstrap</li>
+          <li><i class="fas fa-shapes"></i></i>Shoelace</li>
+          <li><i class="fab fa-github"></i>GitHub</li>
+          <li><i class="fab fa-wordpress"></i>WordPress</li>
+          <li><i class="fab fa-mailchimp"></i>MailChimp</li>
+          <li><i class="far fa-object-ungroup"></i>Adobe InDesign</li>
+          <li><i class="fas fa-desktop"></i>Abode XD</li>
+        </ul>
+      </section>
 
+<!-- WORK       -->
+      <section class="section-grid">
+        <h2 id="work">Work</h2>
+        <div class="cards"></div>
+      </section>
 
+<!-- CONTACT       -->      
+      <section class="contact-grid">
+        <h2 id="contact">Contact</h2>
+        <form action="https://formspree.io/f/mbjppgbe" method="POST">
+            <label>Email</label><input type="text" name="_replyto" placeholder="Your email">
+            <label>Message</label><textarea name="message" placeholder="Say hello"></textarea>
+            <input type="hidden" name="_subject" value="Hello from portfolio site"/>
+            <button type="submit">Send</button>
+        </form>
+        <a id="social" href="https://www.linkedin.com/in/samantha-solomon-3a059110/"><i class="fab fa-linkedin-in"></i>LinkedIn</a>
+      </section>
+    </main>
 
   </body>
 </html>

@@ -1,0 +1,121 @@
+@media screen and (min-width: 320px){
+    .tablet-desk-nav{
+        display: none;
+    }
+}
+
+
+/**************** TABLET **************/
+
+@media screen and (min-width: 768px){
+
+    body{
+        display: grid;
+        grid-template-columns: 1fr 6fr;
+    }
+
+    main{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    /* NAV */
+    
+    .menu-button{
+        display: none;
+    }
+
+    sl-drawer{
+        display: none;
+    }
+
+    header{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-color: #FAEBD7;
+    }
+
+    nav{
+        height: 100%;
+    }
+
+    .tablet-desk-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 20px;
+        background-color: #FAEBD7;
+        writing-mode: vertical-lr;
+        height: 100%;
+        position: fixed;
+    }
+
+    .tablet-desk-nav li{
+        background-color: #FAEBD7;
+        padding: 10px;
+    }
+
+    .nav-button:hover{
+        text-decoration: underline;
+    }
+
+/* MAIN */
+
+    img{
+        max-width: 40%;
+    }
+
+    h3{
+        font-size: 2.5rem;
+    }
+
+    #about, #work, #contact{
+        justify-self: end;
+    }
+
+    .section-grid{
+        margin-top: 20%;
+    }
+
+    p{
+        font-size: 2rem;
+    }
+
+    #skills-box ul{
+        font-size: 2rem;
+        grid-gap: 10%;
+        margin-top: 10px;
+    }
+
+    #skills-box ul li i{
+        font-size: 3.5rem;
+    }
+
+    .card-image img{
+        max-width: 80%;
+    }
+
+    .contact-grid{
+        margin-top: 30%;
+    }
+
+    button{
+        font-size: 3.5rem;
+    }
+
+    #social{
+        font-size: 2rem;
+    }
+}
+
+
+
+/****************** DESKTOP ***************/
+
+@media screen and (min-width: 1024px){
+
+}
