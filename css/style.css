@@ -55,6 +55,7 @@ body {
 nav{
   background-color: #FAEBD7;
   height: 60px;
+  width: 100%;
 }
 
 .menu-button{
@@ -299,6 +300,51 @@ p {
 
 /************* CONTACT ************/
 
+.contact-grid{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 400px 50px;
+  margin-top: 50px;
+}
+
+form{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 3px solid #FAEBD7;
+  padding-left: 10px;
+  margin: 10px;
+}
+
+form label{
+  font-family: 'Playfair Display', serif;
+  color: #DAA520;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  padding: 10px;
+}
+
+form input{
+  background-color: #EBD7A4;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: black;
+  min-height: 10%;
+  max-height: 15%;
+  max-width: 90%;
+}
+
+form textarea{
+  background-color: #EBD7A4;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: black;
+  min-height: 40%;
+  max-width: 90%;
+}
+
 button{
   border: none;
   font-family: 'Playfair Display', serif;
@@ -315,36 +361,21 @@ button:hover{
   text-decoration: underline;
 }
 
-form label{
-  font-family: 'Playfair Display', serif;
-  color: #FAEBD7;
-  font-size: 2rem;
-}
-
-form input{
-  background-color: #EBD7A4;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.5rem;
-  color: black;
-  height: 30px;
-  width: 60%;
-}
-
-form textarea{
-  background-color: #EBD7A4;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.5rem;
-  color: black;
-}
-
 #social{
   font-family: 'Playfair Display', serif;
   text-decoration: none;
   color: #FAEBD7;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
+  padding: 10px;
   grid-column-start: 2;
   grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
 }
 
+#social .fab {
+  font-size: 3rem;
+  padding-right: 10px;
+}
 

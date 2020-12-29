@@ -9,7 +9,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 1| Project Description | Complete
 |Day 1| Wireframes / Priority Matrix / Timeline | Complete
 |Day 1.5| Core Application Structure for mobile (HTML, add work to project spreadsheet) | Complete
-|Day 2| Core Application Structure for mobile(CSS) | Partially complete
+|Day 2| Core Application Structure for mobile(CSS) | Complete
 |Day 3| Javascrip and jquery for work page | Complete
 |Day 4| Media queries & and responsiveness to tablet and desktop | Incomplete
 |Day 5| MVP & Bug Fixes| Incomplete
@@ -120,14 +120,14 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | --- | :---: |  :---: | :---: | 
 | Filling in project worksheet & deploying projects | H | 1hr | 1.5hr |
 | HTML structure | H | 1hr | 1.5hr |
-| Basic CSS for mobile | H | 2hr | 2 hr |
-| Hamburger menu (including responsive)(bootstrap) | H | 3hr | hr |
-| Nav menu | H | 2hr | 0.5 hr |
+| Basic CSS for mobile | H | 2hr | 5 hr |
+| Hamburger menu (including responsive) | H | 3hr | 0.5hr |
+| Nav menu | H | 2hr | 3 hr |
 | About page | H | 2hrs + 1hr responsive | 1 hr |  
-| Contact form | H | 3hrs + 1 responsive|  1 hr | 
-| skill section: w/icons| M | 3hrs + 1 responsive | 2 hr|
-| Project gallery (bootstrap)| H | 3hrs + 1 responsive| 4 hr | 
-| Social Media Icons | L | 1hr |  hr |
+| Contact form | H | 3hrs + 1 responsive|  4 hr | 
+| skill section: w/icons| M | 3hrs + 1 responsive | 3 hr|
+| Project gallery | H | 3hrs + 1 responsive| 5 hr | 
+| Social Media Icons | L | 1hr | 2 hr |
 | Total | H | 22 hrs| hrs |
 
 #### PostMVP
