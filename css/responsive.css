@@ -118,4 +118,33 @@
 
 @media screen and (min-width: 1024px){
 
+    body{
+        display: grid;
+        grid-template-columns: 1fr 2fr 2fr;
+    }
+
+    
+    /* NAV */
+
+    header{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+
+    .tablet-desk-nav{
+        writing-mode: initial;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 30px;
+    }
+
+
+    .tablet-desk-nav li{
+        padding-top: 20px;
+    }
+
 }
