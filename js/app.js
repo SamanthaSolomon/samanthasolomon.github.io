@@ -52,8 +52,7 @@ $.ajax("https://spreadsheets.google.com/feeds/list/11wvPAVvRzcKv7hORaWcsidISosUx
 /////////////////// NAV DRAWER ////////////
 
 
-$(() => {
-  const drawer = document.querySelector('.drawer-placement-left')
+const drawer = document.querySelector('.drawer-placement-left')
   
   const openButton = drawer.nextElementSibling
   
@@ -62,8 +61,16 @@ $(() => {
         })
 
   openButton.addEventListener('click', () => drawer.show())
+
+
+//////////////// DESKTOP H3 /////////////////
+
+const $h3 = $('h3')
+
+if($("main").css("display") == "grid"){
+        $h3.html('<h3>Designer <br> + <br> Developer</h3>')
+    }
   
-});
 
 
 

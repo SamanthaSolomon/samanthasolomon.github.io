@@ -113,6 +113,10 @@ body{
   background-color: #2F4F4F;
 }
 
+main{
+  display: block;
+}
+
 #top-box{
   border: solid 3px;
   border-color: #FAEBD7;
