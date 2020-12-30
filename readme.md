@@ -142,7 +142,8 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 ## Additional Libraries
  
-
+- FontAwesome
+- Shoelace
  - Font: H1-4 [Playfair Display](https://fonts.google.com/specimen/Playfair+Display?category=Serif)
  - Font: p [Roboto Light](https://fonts.google.com/specimen/Roboto?category=Sans+Serif&query=Roboto)
 
@@ -163,6 +164,16 @@ $(() => {
   
 });
 ```
+```javascript
+// Editing H3 for Desktop version only
+const $h3 = $('h3')
+
+if($("main").css("display") == "grid"){
+        $h3.html('<h3>Designer <br> + <br> Developer</h3>')
+    }
+  
+```
+- Idea found at[FourFront Blog](https://www.fourfront.us/blog/jquery-window-width-and-media-queries/)
 
 ## Issues and Resolutions
 - fonts using REM sizing not being responsive
