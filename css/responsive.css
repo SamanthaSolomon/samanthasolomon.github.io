@@ -100,7 +100,7 @@
     }
 
     .contact-grid{
-        margin-top: 30%;
+        margin: 30% 10% 10% 0;
     }
 
     button{
@@ -195,6 +195,13 @@
 
     #bio-box{
         margin-top: 0;
+    }
+
+    section:nth-child(4){
+        grid-column-start: 1;
+        grid-column-end: 3;
+        display: flex;
+        justify-content: space-evenly;
     }
 
     .contact-grid{

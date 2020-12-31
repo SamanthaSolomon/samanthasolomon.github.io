@@ -11,8 +11,8 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 1.5| Core Application Structure for mobile (HTML, add work to project spreadsheet) | Complete
 |Day 2| Core Application Structure for mobile(CSS) | Complete
 |Day 3| Javascrip and jquery for work page | Complete
-|Day 4| Media queries & and responsiveness to tablet and desktop | Incomplete
-|Day 5| MVP & Bug Fixes| Incomplete
+|Day 4| Media queries & and responsiveness to tablet and desktop | Complete
+|Day 5| MVP & Bug Fixes| Complete
 |Day 6| Bugs/Post MVP | Incomplete
 |Day 7| Final Touches | Incomplete
 |Day 8| Record video | Incomplete
@@ -21,14 +21,14 @@ You are **responsible** for scheduling time with your squad to seek approval for
 A portfolio website that showcases my work. Must include the following deviverables and requirementsts.
 
 **Deliverables**
-- An About, Projects, Contact form (connected to your own account on Fromspree)
-- A mobile nav that expands and collapses when a user clicks on the hamburger icon.
+- ~~An About, Projects, Contact form (connected to your own account on Fromspree)~~
+- ~~A mobile nav that expands and collapses when a user clicks on the hamburger icon.~~
 - ~~"Mobile first" design approach.~~
 - A Git repository, hosted on your personal GitHub
 	- ~~Includes a link to your hosted site~~
 	- ~~Site url should be in the form of githubusername.github.io~~
 	- ~~An updated project worksheet with all sections filled out accordingly.~~
-	- Repo must contain frequent commits (minimum 15+) dating back to the beginning of the project.
+	- ~~Repo must contain frequent commits (minimum 15+) dating back to the beginning of the project.~~
 - A 3 min recording
  	- DUE: 1/4/2021
 	- INCLUDE:
@@ -37,10 +37,10 @@ A portfolio website that showcases my work. Must include the following deviverab
 	- Project worksheet
 
 **Requirements**
-- Use semantic markup for HTML and CSS, adhering to best practices.
-- Use CSS GRID to create a multi-column layout
-- Use Flexbox for content
-- Must be mobile mobile first, then tablet and desktop responsive
+- ~~Use semantic markup for HTML and CSS, adhering to best practices.~~
+- ~~Use CSS GRID to create a multi-column layout~~
+- ~~Use Flexbox for content~~
+- ~~Must be mobile mobile first, then tablet and desktop responsive~~
 - ~~Must pull in projects via API call from google sheet~~
 - ~~Be deployed and accessible online either via Github Pages or Surge.~~
 
@@ -122,13 +122,13 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | HTML structure | H | 1hr | 1.5hr |
 | Basic CSS for mobile | H | 2hr | 5 hr |
 | Hamburger menu (including responsive) | H | 3hr | 0.5hr |
-| Nav menu | H | 2hr | 3 hr |
-| About page | H | 2hrs + 1hr responsive | 1 hr |  
+| Nav menu | H | 2hr | 6 hr |
+| About page | H | 2hrs + 1hr responsive | 5 hr |  
 | Contact form | H | 3hrs + 1 responsive|  4 hr | 
-| skill section: w/icons| M | 3hrs + 1 responsive | 3 hr|
+| skill section: w/icons| M | 3hrs + 1 responsive | 5 hr|
 | Project gallery | H | 3hrs + 1 responsive| 5 hr | 
 | Social Media Icons | L | 1hr | 2 hr |
-| Total | H | 22 hrs| hrs |
+| Total | H | 22 hrs| 35.5 hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |

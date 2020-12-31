@@ -245,12 +245,12 @@ p {
 .card-image img{
   background-color: #FAEBD7;
   padding:0px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px auto 10px auto;
   border: 1px solid #2F4F4F;
 }
 .card-image::part(base){
   background-color: #FAEBD7;
+  
 }
 
 .card-image {
@@ -308,7 +308,7 @@ p {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 400px 50px;
-  margin-top: 50px;
+  margin: 30% 3% 10% 0;
 }
 
 form{
