@@ -156,33 +156,31 @@
     #top-box{
         grid-column-start: 1;
         grid-column-end: 3;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     } 
 
+    h1{
+       padding: 100px 0 0 100px 
+    }
+
     img{
-        width: 85%;
-        grid-column-start: 2;
-        grid-column-end: 3;
-        margin-top: 25px;
-        margin-left: 0;
-        margin-right: 0;
+        
+        max-width: 30%;
+        align-self: flex-end;
+        margin-right: 70px;
+        margin-bottom: 70px;
+        margin-left: 0px;
+
     }
 
     h3{
-        grid-column-start: 1;
-        grid-column-end: 2;
         font-size: 4rem;
         text-align: center;
         letter-spacing: 2px;
+        padding: 50px 0 0 100px;
     }
 
-    .section-grid{
-        padding-top: 0;
-    }
-
-    #skills-box{
-
-    }
+  
 }
