@@ -13,9 +13,9 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 3| Javascrip and jquery for work page | Complete
 |Day 4| Media queries & and responsiveness to tablet and desktop | Complete
 |Day 5| MVP & Bug Fixes| Complete
-|Day 6| Bugs/Post MVP | Incomplete
-|Day 7| Final Touches | Incomplete
-|Day 8| Record video | Incomplete
+|Day 6| Bugs/Post MVP | Complete
+|Day 7| Final Touches | Complete
+|Day 8| Record video | Complete
 
 ### Project Description
 A portfolio website that showcases my work. Must include the following deviverables and requirementsts.
@@ -24,12 +24,12 @@ A portfolio website that showcases my work. Must include the following deviverab
 - ~~An About, Projects, Contact form (connected to your own account on Fromspree)~~
 - ~~A mobile nav that expands and collapses when a user clicks on the hamburger icon.~~
 - ~~"Mobile first" design approach.~~
-- A Git repository, hosted on your personal GitHub
+- ~~A Git repository, hosted on your personal GitHub~~
 	- ~~Includes a link to your hosted site~~
 	- ~~Site url should be in the form of githubusername.github.io~~
 	- ~~An updated project worksheet with all sections filled out accordingly.~~
 	- ~~Repo must contain frequent commits (minimum 15+) dating back to the beginning of the project.~~
-- A 3 min recording
+- ~~A 3 min recording~~
  	- DUE: 1/4/2021
 	- INCLUDE:
 	- Functionality
