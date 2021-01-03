@@ -338,6 +338,7 @@ form input{
   min-height: 10%;
   max-height: 15%;
   max-width: 90%;
+  border: none;
 }
 
 form textarea{
