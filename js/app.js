@@ -64,12 +64,6 @@ const drawer = document.querySelector('.drawer-placement-left')
 
 
 //////////////// DESKTOP H3 /////////////////
-
-const $h3 = $('h3')
-
-if($("main").css("display") == "grid"){
-        $h3.html('<h3>Designer <br> + <br> Developer</h3>')
-    }
   
 
 
