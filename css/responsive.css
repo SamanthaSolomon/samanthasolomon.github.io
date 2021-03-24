@@ -147,6 +147,8 @@
         padding-top: 20px;
     }
 
+    /* BODY */
+
     main{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -156,31 +158,39 @@
     #top-box{
         grid-column-start: 1;
         grid-column-end: 3;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr 1fr
     } 
 
     h1{
-       padding: 100px 0 0 100px 
-    }
-
-    img{
-        
-        max-width: 30%;
-        align-self: flex-end;
-        margin-right: 70px;
-        margin-bottom: 70px;
-        margin-left: 0px;
-        border: 3px solid #DAA520;
-        padding: 0;
+        text-align: center;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
     }
 
     h3{
         font-size: 4rem;
         text-align: center;
         letter-spacing: 2px;
-        padding: 20px 0 0 50px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+
+    img{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        align-self: center;
+        justify-self: center;
+        border: 3px solid #DAA520;
+        padding: 0;
+        margin: 0;
     }
 
     #skills-box{
