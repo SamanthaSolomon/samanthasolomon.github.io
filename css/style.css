@@ -256,7 +256,6 @@ p {
   padding: 10px; 
 }
 
-
 .live-button, .gitHub-button{
   display: flex;
   padding-bottom: 15px;
@@ -298,7 +297,7 @@ p {
 .contact-grid{
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 400px 50px;
+  grid-template-rows: 400px 50px 50px 50px;
   margin: 30% 3% 10% 0;
 }
 
@@ -357,12 +356,11 @@ button:hover{
   text-decoration: underline;
 }
 
-#social{
-  font-family: var(--title);
+#linked-in{
+  font-family: var(--text);
   text-decoration: none;
   color: var(--secondary);
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 1.8rem;
   padding: 10px;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -370,7 +368,43 @@ button:hover{
   grid-row-end: 3;
 }
 
-#social .fab {
+#linked-in .fab {
+  font-size: 3rem;
+  padding-right: 10px;
+}
+
+#twitter{
+  font-family: var(--text);
+  text-decoration: none;
+  color: var(--secondary);
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 10px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#twitter .fab {
+  font-size: 3rem;
+  padding-right: 10px;
+}
+
+#github{
+  font-family: var(--text);
+  text-decoration: none;
+  color: var(--secondary);
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 10px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
+#github .fab {
   font-size: 3rem;
   padding-right: 10px;
 }
