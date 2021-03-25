@@ -1,7 +1,3 @@
-/* *******************************************
-****** PROJECT SETUP
-******************************************* */
-
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;800;900&family=Roboto:wght@300&display=swap');
 
 /* VARIABLES */
@@ -26,7 +22,7 @@ html{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background-color: #2F4F4F;
+  background-color: var(--main);
   
 }
 
@@ -46,11 +42,11 @@ body {
 }
 
 
-
+/* MOBILE */
 /************* NAV BAR ************/
 
 nav{
-  background-color: #FAEBD7;
+  background-color: var(--secondary);
   height: 60px;
   width: 100%;
 }
@@ -63,35 +59,35 @@ nav{
 }
 
 .menu-button::part(base){
-  background-color: #FAEBD7;
+  background-color: var(--secondary);
   border: none;
 }
 
 .menu-button i{
-  background-color: #FAEBD7;
+  background-color: var(--secondary);
   color: #2F4F4F;
 }
 /************* NAV DRAWER ************/
 
 sl-drawer::part(body){
-  background-color: #FAEBD7;
+  background-color: var(--secondary);
 }
 
 sl-drawer::part(title){
-  background-color: #FAEBD7;
-  color: #2F4F4F;
-  font-family: 'Playfair Display', serif;
+  background-color: var(--secondary);
+  color: var(--main);
+  font-family: var(--title);
   font-size: 3rem;
 }
 
 nav sl-drawer ul li{
-  background-color: #FAEBD7;
+  background-color: var(--secondary);
 }
 
 .nav-button{
-  background-color: #FAEBD7;
-  color: #2F4F4F;
-  font-family: 'Playfair Display', serif;
+  background-color: var(--secondary);
+  color: var(--main);
+  font-family: var(--title);
   font-weight: 800;
   font-size: 4em;
   margin-top: 20%;
@@ -99,15 +95,15 @@ nav sl-drawer ul li{
 }
 
 sl-drawer::part(close-button){
-  background-color: #FAEBD7;
-  color: #2F4F4F;
+  background-color: var(--secondary);
+  color: var(--main);
   font-size: 5em; 
 }
 
 /************* HOME ************/
 
 body{
-  background-color: #2F4F4F;
+  background-color: var(--main)
 }
 
 main{
@@ -116,9 +112,9 @@ main{
 
 #top-box{
   border: solid 3px;
-  border-color: #FAEBD7;
+  border-color: var(--secondary);
   margin: 1.5rem;
-  background-color: #2F4F4F;
+  background-color: var(--main);
 }
 
 img {
@@ -156,7 +152,7 @@ h2 {
 h3 {
   font-weight: 500;
   font-size: 2rem;
-  color: #DAA520;
+  color: var(--accent);
   text-align: center;
   letter-spacing: 1px;
 }
@@ -165,7 +161,7 @@ h4 {
   text-transform: uppercase;
   font-weight: 500;
   font-size: 3rem;
-  color: #DAA520;
+  color: var(--accent);
   letter-spacing: 1px;
 }
 
@@ -177,7 +173,7 @@ h4 {
 
 #bio-box{
   border: solid 3px;
-  border-color: #FAEBD7;
+  border-color: var(--secondary);
   margin: 1.5rem;
 
 }
@@ -191,13 +187,13 @@ p {
 
 #skills-box{
     border: solid 3px;
-    border-color: #FAEBD7;
+    border-color: var(--secondary);
     margin: 1.5rem;
     min-height: 45vh;
   }
 
 #skills-box ul {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--text);
   font-size: 1.5rem;
   list-style-type: none;
   display: grid;
@@ -225,28 +221,27 @@ p {
 }
 
 .card-image h5{
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--text);
   font-size: 2rem;
   text-align: center;
-  background-color: #FAEBD7;
-  color: #2F4F4F;
+  background-color: var(--secondary);
+  color: var(--main);
 }
 
 .card-image p{
-  font-family: 'Roboto', sans-serif;
-  background-color: #FAEBD7;
-  color: #2F4F4F;
+  font-family: var(--text);
+  background-color: var(--secondary);
+  color: var(--main);
 }
 
 .card-image img{
-  background-color: #FAEBD7;
+  background-color: var(--secondary);
   padding:0px;
   margin: 10px auto 10px auto;
-  border: 1px solid #2F4F4F;
+  border: 1px solid var(--main);
 }
 .card-image::part(base){
-  background-color: #FAEBD7;
-  
+  background-color: var(--secondary);
 }
 
 .card-image {
@@ -257,7 +252,7 @@ p {
 }
 
 .card-image::part(body){
-  background-color: #FAEBD7;
+  background-color: var(--secondary);
   padding: 10px; 
 }
 
@@ -265,36 +260,36 @@ p {
 .live-button, .gitHub-button{
   display: flex;
   padding-bottom: 15px;
-  background-color: #FAEBD7;
+  background-color: var(--secondary);
 }
 
 .gitHub-button::part(label){
-  font-family: 'Playfair Display', serif;
+  font-family: var(--title);
   font-weight: 800;
   font-size: 2rem;
   letter-spacing: 1.5px;
-  color: #2F4F4F;     
+  color: var(--main);     
 }
 
 .live-button::part(label){
-  font-family: 'Playfair Display', serif;
+  font-family: var(--title);
   font-weight: 800;
   font-size: 2rem;
   letter-spacing: 1.5px;
-  color: #2F4F4F;  
+  color: var(--main); 
   padding-top: 5px;   
 }
 
  .gitHub-button::part(base){
-  background-color: #FAEBD7;  
-  border: 3px solid #2F4F4F;
+  background-color: var(--secondary); 
+  border: 3px solid var(--main);
   height: 40px;
   padding-top: 5px;     
 }
 
 .live-button::part(base){
-  background-color: #FAEBD7;  
-  border: 3px solid #2F4F4F;
+  background-color: var(--secondary); 
+  border: 3px solid Var(--main);
   height: 40px;
 }
 
@@ -311,14 +306,14 @@ form{
   display:flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 3px solid #FAEBD7;
+  border: 3px solid var(--secondary);
   padding-left: 10px;
   margin: 10px;
 }
 
 form label{
-  font-family: 'Playfair Display', serif;
-  color: #DAA520;
+  font-family: var(--title);
+  color: var(--accent);
   text-transform: uppercase;
   font-weight: 500;
   font-size: 2rem;
@@ -328,7 +323,7 @@ form label{
 
 form input{
   background-color: #EBD7A4;
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--text);
   font-size: 1.5rem;
   color: black;
   min-height: 10%;
@@ -339,7 +334,7 @@ form input{
 
 form textarea{
   background-color: #EBD7A4;
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--text);
   font-size: 1.5rem;
   color: black;
   min-height: 40%;
@@ -348,9 +343,9 @@ form textarea{
 
 button{
   border: none;
-  font-family: 'Playfair Display', serif;
+  font-family: var(--title);
   text-decoration: none;
-  color: #FAEBD7;
+  color: var(--secondary);
   font-size: 2rem;
   font-weight: 500;
   display: block;
@@ -363,9 +358,9 @@ button:hover{
 }
 
 #social{
-  font-family: 'Playfair Display', serif;
+  font-family: var(--title);
   text-decoration: none;
-  color: #FAEBD7;
+  color: var(--secondary);
   font-size: 1.5rem;
   font-weight: 500;
   padding: 10px;
