@@ -17,7 +17,7 @@ html{
   --text: 'Roboto', sans-serif;
 }  
 
-/* GLOBAL STYLES */
+/* GLOBAL */
 * {
   padding: 0;
   margin: 0;
@@ -26,7 +26,7 @@ html{
   
 }
 
-h1, h2, h4, h5, h6 {
+h1, h5, h6 {
   font-family: var(--title);
   padding: 5px
 }
@@ -36,11 +36,30 @@ h3{
   color: var(--accent);
 }
 
+h2 {
+  font-family: var(--title);
+  padding: 5px;
+  font-size: 4rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+  writing-mode: vertical-lr;
+}
+
+h4 {
+  font-family: var(--title);
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 3rem;
+  color: var(--accent);
+  letter-spacing: 1px;
+  text-align: right;
+}
+
 body {
   font-family: var(--text);
   color: var(--secondary);
 }
-
 
 /* MOBILE */
 /************* NAV BAR ************/
@@ -118,101 +137,36 @@ main{
 }
 
 img {
-  max-width: 95%;
+  max-width: 75%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding: 2rem;
+  margin-top: 7.5%;
+  margin-bottom: 9%;
+  border: 3px solid var(--accent);
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 500;
   letter-spacing: 2px;
   text-align: center;
   padding: 1rem;
 }
 
-/************* ABOUT ************/
-
-#bio{
-  text-align: right;
-  padding-right: 1rem;
-}
-
-
-h2 {
-  font-size: 4rem;
-  letter-spacing: 1px;
-  font-weight: 800;
-  writing-mode: vertical-lr;
-}
-
 h3 {
-  font-weight: 500;
-  font-size: 2rem;
-  color: var(--accent);
+  font-size: 2.3rem;
   text-align: center;
   letter-spacing: 1px;
 }
 
-h4 {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 3rem;
-  color: var(--accent);
-  letter-spacing: 1px;
-}
-
-.section-grid{
+/************* WORK ************/
+.work-section-grid{
   display: grid;
   grid-template-columns: 1fr 4fr;
-  padding-top: 15%;
+  margin-top: 15%;
 }
-
-#bio-box{
-  border: solid 3px;
-  border-color: var(--secondary);
-  margin: 1.5rem;
-
-}
-
-p {
-  font-size: 1.5rem;
-  padding: 1rem;
-}
-
-/************* SKILLS ************/
-
-#skills-box{
-    border: solid 3px;
-    border-color: var(--secondary);
-    margin: 1.5rem;
-    min-height: 45vh;
-  }
-
-#skills-box ul {
-  font-family: var(--text);
-  font-size: 1.5rem;
-  list-style-type: none;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  grid-gap: 5%;
-}
-
-#skills-box ul li{
-  display: grid;
-  justify-self: center;
-}
-
-#skills-box ul li i{
-  font-size: 3rem;
-  justify-self: center;
-}
-
-/************* WORK ************/
 
 .cards{
   display: flex;
@@ -240,6 +194,7 @@ p {
   margin: 10px auto 10px auto;
   border: 1px solid var(--main);
 }
+
 .card-image::part(base){
   background-color: var(--secondary);
 }
@@ -248,7 +203,6 @@ p {
   max-width: 350px;
   min-height: 400px;
   margin: 10px;
-
 }
 
 .card-image::part(body){
@@ -291,6 +245,64 @@ p {
   border: 3px solid Var(--main);
   height: 40px;
 }
+
+/************* ABOUT ************/
+.about-section-grid{
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 15%;
+}
+/************* SKILLS ************/
+
+#skills-box{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  border: solid 3px;
+  border-color: var(--secondary);
+  margin: 1.5rem;
+}
+
+#skill-display{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+
+#skill{
+  padding: 2%;
+  flex-grow: 1;
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+#skill i{
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+#skill p{
+  text-align: center;
+}
+
+/******* BIO ******/
+  #bio-box{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: solid 3px;
+    border-color: var(--secondary);
+    margin: 1.5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
 
 /************* CONTACT ************/
 
