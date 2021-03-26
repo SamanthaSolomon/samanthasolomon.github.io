@@ -254,6 +254,10 @@ h3 {
   grid-template-rows: 5fr 2fr;
   margin-top: 15%;
 }
+
+#about{
+  justify-self: end;
+}
 /************* SKILLS ************/
 
 #skills-box{
