@@ -185,14 +185,17 @@
     #top-box{
         grid-column-start: 1;
         grid-column-end: 3;
+        margin-top: 5%;
+        margin-right: 6%;
+        margin-left: 8%;
     }
 
     h1{
-        font-size: 4.3rem;
+        font-size: 5rem;
     }
 
     h3{
-        font-size: 3.8rem;
+        font-size: 4.5rem;
     }
 
     .work-section-grid{
@@ -202,6 +205,7 @@
 
     .cards{
         display: flex;
+        margin-right: 5%;
     }
 
     sl-card{
@@ -217,14 +221,17 @@
 
     #skills-box{
         align-self: stretch;
+        margin-right: 10%
     }
 
     #skill i{
-        font-size: 4rem;
+        font-size: 4.5rem;
     }
 
     #bio-box{
         margin-top: 0;
+        margin-right: 8%;
+        margin-left: 21.3%;
         max-height: 35rem;
     }
 
