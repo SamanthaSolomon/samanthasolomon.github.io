@@ -113,6 +113,10 @@
         font-size: 2rem;
     }
 
+    .card{
+        display: flex;
+    }
+
     #skills-box ul{
         font-size: 2rem;
         grid-gap: 10%;
@@ -128,7 +132,7 @@
     }
 
     .contact-grid{
-        margin: 30% 10% 10% 0;
+        margin: 17% 10% 10% 0;
     }
 
     button{
@@ -148,7 +152,6 @@
         display: grid;
         grid-template-columns: 1fr 4fr;
     }
-
     
     /* NAV */
 
@@ -159,7 +162,6 @@
         grid-row-end: 2;
     }
     
-
     .tablet-desk-nav{
         writing-mode: initial;
         display: flex;
@@ -167,7 +169,6 @@
         justify-content: flex-start;
         padding-top: 30px;
     }
-
 
     .tablet-desk-nav li{
         padding-top: 20px;
@@ -186,13 +187,27 @@
         grid-column-end: 3;
     }
 
+    h1{
+        font-size: 4.3rem;
+    }
+
     h3{
-        font-size: 4rem;
+        font-size: 3.8rem;
     }
 
     .work-section-grid{
         grid-column-start: 1;
         grid-column-end: 3;
+    }
+
+    .cards{
+        display: flex;
+    }
+
+    sl-card{
+        padding: 2%;
+        flex-grow: 1;
+        flex-basis: 35%;
     }
 
     .about-section-grid{
@@ -204,8 +219,13 @@
         align-self: stretch;
     }
 
+    #skill i{
+        font-size: 4rem;
+    }
+
     #bio-box{
         margin-top: 0;
+        max-height: 35rem;
     }
 
     .contact-grid{
