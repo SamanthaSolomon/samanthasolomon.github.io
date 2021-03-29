@@ -35,11 +35,7 @@ $.ajax("https://spreadsheets.google.com/feeds/list/11wvPAVvRzcKv7hORaWcsidISosUx
                         projects[i].github !== "" ?
                             `<sl-button class="gitHub-button" href=${projects[i].github} target="_blank">See GitHub</sl-button>`
                         : "" 
-                    }
-                // terinary operator
-                // before ? is if
-                // after ? is if true return
-                // after : is if false return             
+                    }        
                 </div>
             </sl-card>`
             )
