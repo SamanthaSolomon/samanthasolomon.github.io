@@ -39,18 +39,18 @@
  
 <!-- TABLET & DESKTOP NAV         -->
         <ul class="tablet-desk-nav">
-          <li><a class="nav-button" href="#about">About</a></li>
-          <li><a class="nav-button" href="#skills">Skills</a></li>
           <li><a class="nav-button" href="#work">Work</a></li>
+          <li><a class="nav-button" href="#skills">Skills</a></li>
+          <li><a class="nav-button" href="#bio">Bio</a></li>
           <li><a class="nav-button" href="#contact">Contact</a></li>  
         </ul>
 
 <!-- MOBILE NAV         -->
         <sl-drawer label="Menu" placement="left" class="drawer-placement-left">
           <ul>
-            <li><a class="nav-button" href="#about">About</a></li>
-            <li><a class="nav-button" href="#skills">Skills</a></li>
             <li><a class="nav-button" href="#work">Work</a></li>
+            <li><a class="nav-button" href="#skills">Skills</a></li>
+            <li><a class="nav-button" href="#bio">Bio</a></li>
             <li><a class="nav-button" href="#contact">Contact</a></li>  
           </ul>
         </sl-drawer>
@@ -74,9 +74,9 @@
 
 <!-- ABOUT       -->
       <section class="about-section-grid">
-        <h2>About</h2>
+        <h2 id="about">About</h2>
         <div id="skills-box">
-          <h4>Skills</h4>
+          <h4 id="skills">Skills</h4>
           <div id="skill-display">
             <div id="skill">
               <i class="fab fa-html5"></i>
@@ -178,12 +178,14 @@
         </div>
 
         <div id="bio-box">
-          <h4>Bio</h4>
+          <h4 id="bio">Bio</h4>
             <p>Samantha is a full stack software engineer with a background in design. She worked in the communications sector for 11 years before pivoting to tech.</p>
             
             <p>Samantha uses tight project management and design expertise to solve complex problems. She keeps the user’s needs at the forefront of all her work. She brings a passion for supporting community and connection into each deliverable.</p>
       
             <p>Samantha has worked in publishing, nonprofits, and the federal sector. She currently lives in Baltimore, MD.</p>
+
+            <a class="resume" href="https://drive.google.com/file/d/15ahGFzABPVLTNlVIz8V9snNZK8h0ybQh/view?usp=sharing" download="SSolomon-Full-Stack-Software-Engineer"><i class="fas fa-file-download"></i> Resume</a>
         </div>
       </section>
 
