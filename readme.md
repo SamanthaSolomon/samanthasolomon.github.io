@@ -1,9 +1,11 @@
-# Unit 1: Portfolio Project Overview
+# Portfolio 1.0
+![](https://res.cloudinary.com/dcvgmixhx/image/upload/v1608582408/Portfolio-%20Wireframs/Portfolio-desktop-home_za31tq.png)
+
+Portfolio site to showcase top projects and skills. Fully responsive for mobile, tablet, and desktop.
+
+### Build Status: Complete
+
 ## Project Schedule
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 |  Day | Deliverable | Status
 |---|---| ---|
 |Day 1| Project Description | Complete
@@ -17,49 +19,29 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |Day 7| Final Touches | Complete
 |Day 8| Record video | Complete
 
-### Project Description
-A portfolio website that showcases my work. Must include the following deviverables and requirementsts.
-
 **Deliverables**
-- ~~An About, Projects, Contact form (connected to your own account on Fromspree)~~
-- ~~A mobile nav that expands and collapses when a user clicks on the hamburger icon.~~
-- ~~"Mobile first" design approach.~~
-- ~~A Git repository, hosted on your personal GitHub~~
-	- ~~Includes a link to your hosted site~~
-	- ~~Site url should be in the form of githubusername.github.io~~
-	- ~~An updated project worksheet with all sections filled out accordingly.~~
-	- ~~Repo must contain frequent commits (minimum 15+) dating back to the beginning of the project.~~
-- ~~A 3 min recording~~
+- An About, Projects, Contact form (connected to your own account on Fromspree)
+- A mobile nav that expands and collapses when a user clicks on the hamburger icon.
+- "Mobile first" design approach.
+- A Git repository, hosted on your personal GitHub
+	- Includes a link to your hosted site
+	- Site url should be in the form of githubusername.github.io
+	- An updated project worksheet with all sections filled out accordingly.
+	- Repo must contain frequent commits (minimum 15+) dating back to the beginning of the project.
+- A 3 min recording
  	- DUE: 1/4/2021
 	- INCLUDE:
-	- Functionality
-	- responsive design: Desktop, Tablet, and Mobile
-	- Project worksheet
+		- Functionality
+		- responsive design: Desktop, Tablet, and Mobile
+		- Project worksheet
 
 **Requirements**
-- ~~Use semantic markup for HTML and CSS, adhering to best practices.~~
-- ~~Use CSS GRID to create a multi-column layout~~
-- ~~Use Flexbox for content~~
-- ~~Must be mobile mobile first, then tablet and desktop responsive~~
-- ~~Must pull in projects via API call from google sheet~~
-- ~~Be deployed and accessible online either via Github Pages or Surge.~~
-
-
-Google sheet [here.](https://spreadsheets.google.com/feeds/list/11wvPAVvRzcKv7hORaWcsidISosUxtyNx0AuugxxMwyo/1/public/full?alt=json)
--------------------------
-
-## Portfolio I want to Emulate
-Search and compare at least 3 profile web sites.  Record your findings in the table below and include some aspect of the site that you would like to ~~incorporate~~ into your own site.
-
-Link To Site  | One Thing I'd Like To Incorporate | 
-| ------------- | ------------- |
-| https://zanegriffin.github.io/portfolioSite/index.html#home-page | side nav that stays in place while navigating the site in desktop
-|https://www.loftgarten.co/work| hamburger menu engages side nav that fills the whole page in mobile, also typography general framwork|
-| https://www.wvth.nl/ |  underline animation on links during mouse over and "drag me" carosel
-| https://www.awwwards.com/websites/portfolio/| project cards with details and mouse over reaction |  
-|https://www.grovelust.be/projects/| minimal color palette, architectual asthetic |
----
-
+- Use semantic markup for HTML and CSS, adhering to best practices.
+- Use CSS GRID to create a multi-column layout
+- Use Flexbox for content
+- Must be mobile mobile first, then tablet and desktop responsive
+- Must pull in projects via API call from google sheet
+- Be deployed and accessible online either via Github Pages or Surge.
 
 ## Wireframes
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
@@ -88,9 +70,8 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 
 ### MVP/PostMVP
- 
 
-#### MVP (examples)
+#### MVP
  - Gallery, a collection of works (A)
 	- Google sheets API
  - A navigation bar that slides open in mobile & tablet (B)
@@ -140,6 +121,10 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 | box frames on home page responsive to window size | M | 3hr | hr |
 | Total | H | 19hrs| hrs |
 
+## Code, Style & Framework
+ - HTML, CSS, vanilla JS, JQuery
+ - External references to main styles and responsive styles 
+
 ## Additional Libraries
  
 - FontAwesome
@@ -147,10 +132,9 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
  - Font: H1-4 [Playfair Display](https://fonts.google.com/specimen/Playfair+Display?category=Serif)
  - Font: p [Roboto Light](https://fonts.google.com/specimen/Roboto?category=Sans+Serif&query=Roboto)
 
-## Code Snippet
-___Use this section to include a brief code snippet of functionality that you are proud of an a brief description___  
+## Code Snippets
 ```javascript
-// shoelace Drawer customization for use as nav
+// SHOELACE DRAWER CUSTOMIZATION FOR NAV //
 $(() => {
   const drawer = document.querySelector('.drawer-placement-left')
   
@@ -163,17 +147,29 @@ $(() => {
   openButton.addEventListener('click', () => drawer.show())
   
 });
-```
-```javascript
-// Editing H3 for Desktop version only
-const $h3 = $('h3')
 
-if($("main").css("display") == "grid"){
-        $h3.html('<h3>Designer <br> + <br> Developer</h3>')
-    }
-  
+// PULL AND RENDER DATA FROM GOOGLE SHEETS //
+
+$.ajax("https://spreadsheets.google.com/feeds/list/11wvPAVvRzcKv7hORaWcsidISosUxtyNx0AuugxxMwyo/1/public/full?alt=json")
+.then((data) => {
+
+    //put out projects in a variable
+    const rawProjects = data.feed.entry
+
+    //log our projects
+    console.log(rawProjects)
+
+    //Prettify projects array
+    const projects = rawProjects.map((project) => {
+        return{
+            name: project.gsx$name.$t,
+            img: project.gsx$img.$t,
+            description: project.gsx$description.$t,
+            live: project.gsx$live.$t,
+            github: project.gsx$github.$t
+        }
+    })
 ```
-- Idea found at[FourFront Blog](https://www.fourfront.us/blog/jquery-window-width-and-media-queries/)
 
 ## Issues and Resolutions
 - fonts using REM sizing not being responsive
