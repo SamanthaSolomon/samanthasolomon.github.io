@@ -68,15 +68,17 @@
     #top-box{
         display: grid;
         grid-template-columns: 2fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         padding: 5%;
+        height: 400px;
     }
 
     h1{
+        font-size: 5.5rem;
         text-align: center;
         align-self: center;
         grid-column-start: 1;
-        grid-column-end: 2;
+        grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 2;
     }
@@ -95,14 +97,14 @@
     img{
         grid-column-start: 2;
         grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 4;
         align-self: center;
         justify-self: center;
         border: 3px solid var(--accent);
         padding: 0;
         margin: 0;
-        width: 80%;
+        width: 85%;
     }
 
     #about, #work, #contact{
@@ -188,15 +190,21 @@
         margin-top: 5%;
         margin-right: 6%;
         margin-left: 8%;
+        min-height: 500px;
     }
 
     h1{
-        font-size: 5rem;
+        font-size: 6rem;
     }
 
     h3{
-        font-size: 4.5rem;
+        font-size: 4rem;
+        padding-top: 5%;
     }
+
+   #top-box p{
+        padding-top: 5%;
+   }
 
     .work-section-grid{
         grid-column-start: 1;

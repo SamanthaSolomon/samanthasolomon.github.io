@@ -56,10 +56,11 @@ h4 {
   text-align: right;
 }
 
-body {
+body{
   font-family: var(--text);
   color: var(--secondary);
 }
+
 
 /* MOBILE */
 /************* NAV BAR ************/
@@ -159,6 +160,11 @@ h3 {
   font-size: 2.3rem;
   text-align: center;
   letter-spacing: 1px;
+}
+
+#top-box p{
+  font-style: italic;
+  text-align: center;
 }
 
 /************* WORK ************/
