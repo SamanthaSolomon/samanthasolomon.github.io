@@ -204,6 +204,7 @@ h3 {
 
 .card-image::part(base){
   background-color: var(--secondary);
+  padding-top: 5%;
 }
 
 .card-image {
@@ -213,7 +214,7 @@ h3 {
 }
 
 .card-image::part(body){
-  background-color: var(--secondary);
+  background-color:var(--secondary);
   padding: 10px; 
 }
 
