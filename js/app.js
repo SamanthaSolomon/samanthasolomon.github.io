@@ -1,17 +1,17 @@
-/////////////// PULL AND RENDER DATA FROM GOOGLE SHEETS ///////////////
+// PULL AND RENDER DATA FROM GOOGLE SHEETS //
 
 $.ajax("https://spreadsheets.google.com/feeds/list/11wvPAVvRzcKv7hORaWcsidISosUxtyNx0AuugxxMwyo/1/public/full?alt=json")
 .then((data) => {
     //Checking My Data
     console.log(data)
 
-    //put out projects in a variable
+    //put projects in a variable
     const rawProjects = data.feed.entry
 
-    //log our projects
+    //log projects
     console.log(rawProjects)
 
-    //Prettify our projects array
+    //Prettify projects array
     const projects = rawProjects.map((project) => {
         return{
             name: project.gsx$name.$t,
@@ -22,7 +22,7 @@ $.ajax("https://spreadsheets.google.com/feeds/list/11wvPAVvRzcKv7hORaWcsidISosUx
         }
     })
 
-    ///////////// USE JQUERY TO RENDER PROJECTS ON PAGE /////////////
+   // USE JQUERY TO RENDER PROJECTS ON PAGE //
         for (i=0;i < projects.length; i++) {
         const $div = $(
             `<sl-card class="card-image">
@@ -45,8 +45,7 @@ $.ajax("https://spreadsheets.google.com/feeds/list/11wvPAVvRzcKv7hORaWcsidISosUx
 })
 
 
-/////////////////// NAV DRAWER ////////////
-
+// NAV DRAWER //
 
 const drawer = document.querySelector('.drawer-placement-left')
   
@@ -58,10 +57,3 @@ const drawer = document.querySelector('.drawer-placement-left')
 
   openButton.addEventListener('click', () => drawer.show())
 
-
-//////////////// DESKTOP H3 /////////////////
-  
-
-
-
-///////////// PULL DATA FROM BLOG FROM HEADLESS CMS /////////////
