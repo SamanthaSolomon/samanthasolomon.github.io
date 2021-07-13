@@ -190,11 +190,12 @@
         margin-top: 5%;
         margin-right: 6%;
         margin-left: 8%;
-        min-height: 500px;
+        height: 600px;
     }
 
     h1{
         font-size: 6rem;
+        padding-bottom: 5%;
     }
 
     h3{
