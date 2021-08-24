@@ -1,6 +1,6 @@
 // PULL AND RENDER DATA FROM GOOGLE SHEETS //
 
-$.ajax("https://docs.google.com/spreadsheets/d/e/2PACX-1vRR44XxHuPaudKrDTw9XvEUXceddiM3BmjUIK8Iwmb1qMB-VhP6G2jrdnmTlRDQOFz05epqUBNO5LU0/pubhtml")
+$.ajax("https://docs.google.com/spreadsheets/d/e/2PACX-1vRR44XxHuPaudKrDTw9XvEUXceddiM3BmjUIK8Iwmb1qMB-VhP6G2jrdnmTlRDQOFz05epqUBNO5LU0/pubhtml?gid=0&single=true")
 .then((data) => {
     //Checking My Data
     console.log(data)
