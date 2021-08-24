@@ -1,9 +1,10 @@
 // PULL AND RENDER DATA FROM GOOGLE SHEETS //
+window.googleDocCallback = function () { return true; };
 
-$.ajax("https://docs.google.com/spreadsheets/d/e/2PACX-1vRR44XxHuPaudKrDTw9XvEUXceddiM3BmjUIK8Iwmb1qMB-VhP6G2jrdnmTlRDQOFz05epqUBNO5LU0/pubhtml?gid=0&single=true")
+$.ajax("https://spreadsheets.google.com/feeds/list/2PACX-1vRR44XxHuPaudKrDTw9XvEUXceddiM3BmjUIK8Iwmb1qMB-VhP6G2jrdnmTlRDQOFz05epqUBNO5LU0/1/public/full?alt=json&callback=googleDocCallback")
 .then((data) => {
     //Checking My Data
-    console.log(data)
+    console.log('data-', data)
 
     //put projects in a variable
     const rawProjects = data.feed.entry
