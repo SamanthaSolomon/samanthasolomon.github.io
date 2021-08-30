@@ -1,5 +1,7 @@
-// PULL AND RENDER DATA FROM GOOGLE SHEETS //
-window.googleDocCallback = function () { return true; };
+// PULL AND RENDER DATA FROM AIRTABLE //
+const Airtable = require('airtable')
+require('dotenv').config()
+const
 
 $.ajax("https://spreadsheets.google.com/feeds/list/2PACX-1vRR44XxHuPaudKrDTw9XvEUXceddiM3BmjUIK8Iwmb1qMB-VhP6G2jrdnmTlRDQOFz05epqUBNO5LU0/1/public/full?alt=json&callback=googleDocCallback")
 .then((data) => {
