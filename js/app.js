@@ -1,9 +1,16 @@
 // PULL AND RENDER DATA FROM AIRTABLE //
 const Airtable = require('airtable')
 require('dotenv').config()
-const
+const { baseID, AIRTABLE_API_Key } = process.env
+// Airtable.configure({
+//     endpointUrl: 'https://api.airtable.com',
+//     apiKey: API_Key
+// })
 
-$.ajax("https://spreadsheets.google.com/feeds/list/2PACX-1vRR44XxHuPaudKrDTw9XvEUXceddiM3BmjUIK8Iwmb1qMB-VhP6G2jrdnmTlRDQOFz05epqUBNO5LU0/1/public/full?alt=json&callback=googleDocCallback")
+const base = new Airtable({apiKey: AIRTABLE_API_Key}).base(baseID)
+console.log(baseID)
+
+$.ajax()
 .then((data) => {
     //Checking My Data
     console.log('data-', data)
