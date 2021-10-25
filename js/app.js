@@ -1,33 +1,4 @@
-// PULL AND RENDER DATA FROM AIRTABLE //
 
-// require('dotenv').config()
-// const { baseID, AIRTABLE_API_Key } = process.env
-
-
-// const base = new Airtable({apiKey: AIRTABLE_API_Key}).base(baseID)
-
-
-var Airtable = require('airtable');
-var base = new Airtable({apiKey: 'keyGaHiDCegMafUfa'}).base('appyjIMa5kCCoyxje');
-
-const table = base('Sheet1')
-
-const getRecords = async () => {
-    const records = await table.select({
-        view: 'Grid view',
-        fields: ['name', 'img', 'description', 'live', 'github']
-    }).firstPage((err, records) => {
-        if (err) {
-            console.error(err)
-            return
-        }
-        records.forEach((record) => {
-            console.log('Retrieved', record.get('name', 'img', 'description', 'live', 'github'));
-        })
-    });
-}
-
-getRecords()
 
 // const prettify = records.map((record) => {
 //     return{
