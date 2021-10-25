@@ -2,7 +2,7 @@
 
 import { projects } from "./data.js"
 
-const cardContainer = document.querySelector(".cards")
+const cardContainer = document.querySelector(".projects")
 
 render()
 
