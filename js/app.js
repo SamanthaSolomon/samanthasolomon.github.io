@@ -1,4 +1,6 @@
+import { projects } from "./data.js"
 
+console.log(projects)
 
 // const prettify = records.map((record) => {
 //     return{
@@ -58,13 +60,13 @@
 
 // NAV DRAWER //
 
-// const drawer = document.querySelector('.drawer-placement-left')
-  
-//   const openButton = drawer.nextElementSibling
-  
-//     const closeButton = $('.nav-button').on('click', () => {
-//         drawer.hide()
-//         })
+const drawer = document.querySelector('.drawer-placement-left')
 
-//   openButton.addEventListener('click', () => drawer.show())
+const openButton = drawer.nextElementSibling
+
+const closeButton = $('.nav-button').on('click', () => {
+    drawer.hide()
+})
+
+openButton.addEventListener('click', () => drawer.show())
 

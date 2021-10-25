@@ -56,3 +56,5 @@ const projects = [
     github : "https://github.com/SamanthaSolomon/LOTR"
   },
 ]
+
+export { projects }
