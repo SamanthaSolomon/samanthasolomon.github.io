@@ -27,4 +27,32 @@ const projects = [
     live : "https://what-the-weather.netlify.app/",
     github : "https://what-the-weather.netlify.app/"
   },
+  { 
+    name : "This Site!",
+    img : "https://res.cloudinary.com/dcvgmixhx/image/upload/v1611537958/Portfolio%20-%20Projects/Screen_Shot_2021-01-24_at_8.24.34_PM_cmzycl.png",
+    description : "Using HTML, CSS, JS, and Shoelace I built this mobile, tablet, and desktop responsive site. The work section uses jQuery to pull data from a google spreadsheet so I can easily add or remove projects without editing the site directly. ",
+    live : "https://samanthasolomon.com/",
+    github : "https://github.com/SamanthaSolomon/samanthasolomon.github.io"
+  },
+  { 
+    name : "Strong City Baltimore",
+    img : "https://res.cloudinary.com/dcvgmixhx/image/upload/v1608589105/Portfolio%20-%20Projects/storngcitybaltimore-blog.png",
+    description : "Complete redesign and overhaul of organization's website that reflects the new brand, better showcases work, and is more user friendly. Deisgned and built with the help of Web Interactive Technologies, Inc.",
+    live : "https://www.strongcitybaltimore.org/",
+    github : ""
+  },
+  { 
+    name : "Random Tarot Generator",
+    img : "https://res.cloudinary.com/dcvgmixhx/image/upload/v1608596792/Portfolio%20-%20Projects/viva-luna-studios-GLsAydqqgzs-unsplash_xoukup.jpg",
+    description : "Random tarot card generator created using JavaScript.",
+    live : "http://samanthasolomon.com/Random-Tarot-Generator/",
+    github : "https://github.com/SamanthaSolomon/tarot"
+  },
+  { 
+    name : "Lord of the Rings Map",
+    img : "https://res.cloudinary.com/dcvgmixhx/image/upload/v1608597034/Portfolio%20-%20Projects/LOTR%20Map.png",
+    description : "Interactive Lord of the Rings map created using CSS, JS, and JQuery.",
+    live : "https://samanthasolomon.github.io/LOTR/",
+    github : "https://github.com/SamanthaSolomon/LOTR"
+  },
 ]
