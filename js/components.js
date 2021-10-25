@@ -7,8 +7,8 @@ class MyCard extends HTMLElement{
         const description = this.getAttribute("description")
         const live = this.getAttribute("live")
         const github = this.getAttribute("github")
- 
-        // console.log(name, img, description, live, github)
+
+        //console.log(name, img, description, live, github)
 
     }
 }

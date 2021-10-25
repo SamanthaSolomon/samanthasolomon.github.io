@@ -2,60 +2,27 @@ import { projects } from "./data.js"
 
 console.log(projects)
 
-// const prettify = records.map((record) => {
-//     return{
-//         id: record.id,
-//         fields: record.fields
-//     }
-// })
+const cardContainer = document.querySelector(".cards")
+console.log(cardContainer)
 
-// prettify()
+render()
 
-//OLD AJAX CALL
-
-// $.ajax()
-// .then((data) => {
-//     //Checking My Data
-//     console.log('data-', data)
-
-//     //put projects in a variable
-//     const rawProjects = data.feed.entry
-
-//     //log projects
-//     console.log(rawProjects)
-
-//     //Prettify projects array
-//     const projects = rawProjects.map((project) => {
-//         return{
-//             name: project.gsx$name.$t,
-//             img: project.gsx$img.$t,
-//             description: project.gsx$description.$t,
-//             live: project.gsx$live.$t,
-//             github: project.gsx$github.$t
-//         }
-//     })
-
-   // USE JQUERY TO RENDER PROJECTS ON PAGE //
-//         for (i=0;i < projects.length; i++) {
-//         const $div = $(
-//             `<sl-card class="card-image">
-//                 <h5>${projects[i].name}</h5>
-//                 <img slot="image" src=${projects[i].img} 
-//                 alt="${projects[i].name}">
-//                 <p>${projects[i].description}</p>
-//                     <sl-button class="live-button" href=${projects[i].live} target="_blank">See It Live</sl-button>
-//                     ${
-//                         projects[i].github !== "" ?
-//                             `<sl-button class="gitHub-button" href=${projects[i].github} target="_blank">See GitHub</sl-button>`
-//                         : "" 
-//                     }        
-//                 </div>
-//             </sl-card>`
-//             )
-//         $(".cards").append($div)
-//     }
-
-// })
+function render() {
+    projects.forEach((project) => {
+        console.log(project)
+        cardContainer.innerHTML =
+            `<sl-card class="card-image">
+                <h5>${project.name}</h5>
+                <img slot="image" src=${projects.img} alt="${project.name}">
+                <p>${project.description}</p>
+                <sl-button class="live-button" href=${project.live} target="_blank">See It Live</sl-button>
+                ${project.github !== "" ?
+                    `<sl-button class="gitHub-button" href=${project.github} target="_blank">See GitHub</sl-button>`: "" 
+                }        
+            </sl-card>`
+        //cardContainer.appendChild(project)
+    })
+}
 
 
 // NAV DRAWER //
