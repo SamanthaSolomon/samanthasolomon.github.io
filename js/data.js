@@ -1,12 +1,5 @@
 const projects = [
   { 
-    name : "Rooster Grin",
-    img : "https://res.cloudinary.com/dcvgmixhx/image/upload/v1624292637/Portfolio%20-%20Projects/Screen_Shot_2021-06-21_at_12.23.03_PM_web3xp.png",
-    description : "Technical assessment for Rooster Grin Media, serving the dentistry sector. HTML, Sass/Scss, CSS, JS, JQuery one-page app with a custom carousel. Desktop Only.",
-    live : "http://samanthasolomon.com/RoosterGrin/",
-    github : "https://github.com/SamanthaSolomon/RoosterGrin"
-  },
-  { 
     name : "Worn Out",
     img : "https://res.cloudinary.com/dcvgmixhx/image/upload/v1615927359/WornOut/Wornout-closet.png",
     description : "Fully responsive, clean user interface built with Svelte helps users easily view their wear patterns. Custom database constructed with Ruby on Rails allows users to store, update, and delete items. Allows users to track how often they wear items with a digital closet.",
@@ -19,6 +12,13 @@ const projects = [
     description : "This react app allows users to search for jokes or generate a random joke. It pulls data from the icanhazdadjoke API. CSS uses BEM and variables for efficiency. Mobile, tablet, and desktop responsive. Set state and fetched data are from two endpoints.",
     live : "https://getadadjoke.netlify.app/",
     github : "https://github.com/SamanthaSolomon/Get-A-Dad-Joke"
+  },
+  { 
+    name : "Rooster Grin",
+    img : "https://res.cloudinary.com/dcvgmixhx/image/upload/v1624292637/Portfolio%20-%20Projects/Screen_Shot_2021-06-21_at_12.23.03_PM_web3xp.png",
+    description : "Technical assessment for Rooster Grin Media, serving the dentistry sector. HTML, Sass/Scss, CSS, JS, JQuery one-page app with a custom carousel. Desktop Only.",
+    live : "http://samanthasolomon.com/RoosterGrin/",
+    github : "https://github.com/SamanthaSolomon/RoosterGrin"
   },
   { 
     name : "What's the Weather?",

@@ -115,9 +115,16 @@
         font-size: 2rem;
     }
 
-    .card{
+    .projects{
         display: flex;
+        flex-wrap: wrap;
     }
+
+    .cards{
+        flex-grow: 1;
+        flex-basis: 35%;
+    }
+
 
     #skills-box ul{
         font-size: 2rem;
