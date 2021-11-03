@@ -35,6 +35,13 @@ const projects = [
     github : "https://github.com/SamanthaSolomon/samanthasolomon.github.io"
   },
   { 
+    name : "Hustle Busters",
+    img : "",
+    description : "The app uses React to create a Netlify deployment using the backend repository bd-hustle-busters as its API data.The app contains full CRUD functionality, utilizing get routes to generate lead tables, put and delete routes utilized by the buttons contained in each lead, and a create route to create a new user from the user registration form. ",
+    live : "",
+    github : "https://github.com/gbarka2/fe-hustle-busters#hustle-busters---frontend"
+  },
+  { 
     name : "Strong City Baltimore",
     img : "https://res.cloudinary.com/dcvgmixhx/image/upload/v1608589105/Portfolio%20-%20Projects/storngcitybaltimore-blog.png",
     description : "Complete redesign and overhaul of organization's website that reflects the new brand, better showcases work, and is more user friendly. Deisgned and built with the help of Web Interactive Technologies, Inc.",
