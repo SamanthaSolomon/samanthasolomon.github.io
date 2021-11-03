@@ -25,7 +25,7 @@ const projects = [
     img : "https://res.cloudinary.com/dcvgmixhx/image/upload/v1620764353/Portfolio%20-%20Projects/weather-app.png",
     description : "A one page React app that pulls data baised on zipcode queries from the OpenWeather API.",
     live : "https://what-the-weather.netlify.app/",
-    github : "https://what-the-weather.netlify.app/"
+    github : "https://github.com/SamanthaSolomon/weather-app"
   },
   { 
     name : "This Site!",
