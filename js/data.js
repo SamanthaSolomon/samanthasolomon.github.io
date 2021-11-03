@@ -36,9 +36,9 @@ const projects = [
   },
   { 
     name : "Hustle Busters",
-    img : "",
+    img : "https://res.cloudinary.com/dcvgmixhx/image/upload/v1635953061/Screen_Shot_2021-11-03_at_11.23.19_AM_rvp0je.png",
     description : "The app uses React to create a Netlify deployment using the backend repository bd-hustle-busters as its API data.The app contains full CRUD functionality, utilizing get routes to generate lead tables, put and delete routes utilized by the buttons contained in each lead, and a create route to create a new user from the user registration form. ",
-    live : "",
+    live : "https://hustlebusters.netlify.app/",
     github : "https://github.com/gbarka2/fe-hustle-busters#hustle-busters---frontend"
   },
   { 
