@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;800;900&family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;800;900&family=Roboto:wght@300&display=swap");
 
 /* VARIABLES */
 
-html{
+html {
   font-size: 10px;
 }
 
 :root {
   /* MAIN COLORS */
-  --main: #2F4F4F;
-  --secondary: #FAEBD7;
-  --accent: #DAA520;
+  --main: #2f4f4f;
+  --secondary: #faebd7;
+  --accent: #daa520;
 
   /* FONTS */
-  --title: 'Playfair Display', serif;
-  --text: 'Roboto', sans-serif;
-}  
+  --title: "Playfair Display", serif;
+  --text: "Roboto", sans-serif;
+}
 
 /* GLOBAL */
 * {
@@ -23,15 +23,16 @@ html{
   margin: 0;
   box-sizing: border-box;
   background-color: var(--main);
-  
 }
 
-h1, h5, h6 {
+h1,
+h5,
+h6 {
   font-family: var(--title);
-  padding: 5px
+  padding: 5px;
 }
 
-h3{
+h3 {
   font-family: var(--text);
   color: var(--accent);
 }
@@ -56,55 +57,54 @@ h4 {
   text-align: right;
 }
 
-body{
+body {
   font-family: var(--text);
   color: var(--secondary);
 }
 
-
 /* MOBILE */
 /************* NAV BAR ************/
 
-nav{
+nav {
   background-color: var(--secondary);
   height: 60px;
   width: 100%;
 }
 
-.menu-button{
+.menu-button {
   width: 50px;
   margin-top: 7px;
   position: relative;
   left: 80%;
 }
 
-.menu-button::part(base){
+.menu-button::part(base) {
   background-color: var(--secondary);
   border: none;
 }
 
-.menu-button i{
+.menu-button i {
   background-color: var(--secondary);
-  color: #2F4F4F;
+  color: #2f4f4f;
 }
 /************* NAV DRAWER ************/
 
-sl-drawer::part(body){
+sl-drawer::part(body) {
   background-color: var(--secondary);
 }
 
-sl-drawer::part(title){
+sl-drawer::part(title) {
   background-color: var(--secondary);
   color: var(--main);
   font-family: var(--title);
   font-size: 3rem;
 }
 
-nav sl-drawer ul li{
+nav sl-drawer ul li {
   background-color: var(--secondary);
 }
 
-.nav-button{
+.nav-button {
   background-color: var(--secondary);
   color: var(--main);
   font-family: var(--title);
@@ -114,23 +114,23 @@ nav sl-drawer ul li{
   text-decoration: none;
 }
 
-sl-drawer::part(close-button){
+sl-drawer::part(close-button) {
   background-color: var(--secondary);
   color: var(--main);
-  font-size: 5em; 
+  font-size: 5em;
 }
 
 /************* HOME ************/
 
-body{
-  background-color: var(--main)
+body {
+  background-color: var(--main);
 }
 
-main{
+main {
   display: block;
 }
 
-#top-box{
+#top-box {
   border: solid 3px;
   border-color: var(--secondary);
   margin: 1.5rem;
@@ -162,25 +162,25 @@ h3 {
   letter-spacing: 1px;
 }
 
-#top-box p{
+#top-box p {
   font-style: italic;
   text-align: center;
 }
 
 /************* WORK ************/
-.work-section-grid{
+.work-section-grid {
   display: grid;
   grid-template-columns: 1fr 4fr;
   margin-top: 15%;
 }
 
-.cards{
+.cards {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.card-image h5{
+.card-image h5 {
   font-family: var(--text);
   font-size: 2rem;
   text-align: center;
@@ -190,21 +190,21 @@ h3 {
   min-height: 50px;
 }
 
-.card-image p{
+.card-image p {
   font-family: var(--text);
   background-color: var(--secondary);
   color: var(--main);
   min-height: 150px;
 }
 
-.card-image img{
+.card-image img {
   background-color: var(--secondary);
-  padding:0px;
+  padding: 0px;
   margin: 10px auto 10px auto;
   border: 1px solid var(--main);
 }
 
-.card-image::part(base){
+.card-image::part(base) {
   background-color: var(--secondary);
   padding-top: 5%;
 }
@@ -215,61 +215,62 @@ h3 {
   margin: 10px;
 }
 
-.card-image::part(body){
-  background-color:var(--secondary);
-  padding: 10px; 
+.card-image::part(body) {
+  background-color: var(--secondary);
+  padding: 10px;
 }
 
-.live-button, .gitHub-button{
+.live-button,
+.gitHub-button {
   display: flex;
   padding-bottom: 15px;
   background-color: var(--secondary);
 }
 
-.gitHub-button::part(label){
+.gitHub-button::part(label) {
   font-family: var(--title);
   font-weight: 800;
   font-size: 2rem;
   letter-spacing: 1.5px;
-  color: var(--main);     
+  color: var(--main);
 }
 
-.live-button::part(label){
+.live-button::part(label) {
   font-family: var(--title);
   font-weight: 800;
   font-size: 2rem;
   letter-spacing: 1.5px;
-  color: var(--main); 
-  padding-top: 5px;   
+  color: var(--main);
+  padding-top: 5px;
 }
 
- .gitHub-button::part(base){
-  background-color: var(--secondary); 
+.gitHub-button::part(base) {
+  background-color: var(--secondary);
   border: 3px solid var(--main);
   height: 40px;
-  padding-top: 5px;     
+  padding-top: 5px;
 }
 
-.live-button::part(base){
-  background-color: var(--secondary); 
+.live-button::part(base) {
+  background-color: var(--secondary);
   border: 3px solid Var(--main);
   height: 40px;
 }
 
 /************* ABOUT ************/
-.about-section-grid{
+.about-section-grid {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 5fr 2fr;
   margin-top: 15%;
 }
 
-#about{
+#about {
   justify-self: end;
 }
 /************* SKILLS ************/
 
-#skills-box{
+#skills-box {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
@@ -279,13 +280,13 @@ h3 {
   margin: 1.5rem;
 }
 
-#skill-display{
+#skill-display {
   display: flex;
   flex-wrap: wrap;
   align-content: space-evenly;
 }
 
-#skill{
+#skill {
   padding: 5%;
   flex-grow: 1;
   flex-basis: 30%;
@@ -293,51 +294,51 @@ h3 {
   flex-direction: column;
 }
 
-#skill i{
+#skill i {
   font-size: 3.5rem;
   text-align: center;
 }
 
-#skill p{
+#skill p {
   text-align: center;
 }
 
 /******* BIO ******/
-  #bio-box{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    border: solid 3px;
-    border-color: var(--secondary);
-    margin: 1.5rem;
-    max-height: 45rem;
-  }
+#bio-box {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  border: solid 3px;
+  border-color: var(--secondary);
+  margin: 1.5rem;
+  max-height: 45rem;
+}
 
-  p {
-    font-size: 1.5rem;
-    padding: 1rem;
-  }
+p {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
 
-  .resume{
-    font-family: var(--text);
-    color: var(--secondary);
-    font-size: 2rem;
-    padding: 1rem;
-    text-decoration: none;
-  }
+.resume {
+  font-family: var(--text);
+  color: var(--secondary);
+  font-size: 2rem;
+  padding: 1rem;
+  text-decoration: none;
+}
 
 /************* CONTACT ************/
 
-.contact-grid{
+.contact-grid {
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 400px 50px 50px 50px;
   margin: 10% 3% 10% 0;
 }
 
-form{
-  display:flex;
+form {
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   border: 3px solid var(--secondary);
@@ -345,7 +346,7 @@ form{
   margin: 10px;
 }
 
-form label{
+form label {
   font-family: var(--title);
   color: var(--accent);
   text-transform: uppercase;
@@ -355,8 +356,8 @@ form label{
   padding: 10px;
 }
 
-form input{
-  background-color: #EBD7A4;
+form input {
+  background-color: #ebd7a4;
   font-family: var(--text);
   font-size: 1.5rem;
   color: black;
@@ -366,8 +367,8 @@ form input{
   border: none;
 }
 
-form textarea{
-  background-color: #EBD7A4;
+form textarea {
+  background-color: #ebd7a4;
   font-family: var(--text);
   font-size: 1.5rem;
   color: black;
@@ -375,7 +376,7 @@ form textarea{
   max-width: 90%;
 }
 
-button{
+button {
   border: none;
   font-family: var(--title);
   text-decoration: none;
@@ -387,11 +388,11 @@ button{
   text-align: right;
 }
 
-button:hover{
+button:hover {
   text-decoration: underline;
 }
 
-#linked-in{
+#linked-in {
   font-family: var(--text);
   text-decoration: none;
   color: var(--secondary);
@@ -408,7 +409,7 @@ button:hover{
   padding-right: 10px;
 }
 
-#twitter{
+#twitter {
   font-family: var(--text);
   text-decoration: none;
   color: var(--secondary);
@@ -426,7 +427,7 @@ button:hover{
   padding-right: 10px;
 }
 
-#github{
+#github {
   font-family: var(--text);
   text-decoration: none;
   color: var(--secondary);
@@ -443,4 +444,3 @@ button:hover{
   font-size: 3rem;
   padding-right: 10px;
 }
-
