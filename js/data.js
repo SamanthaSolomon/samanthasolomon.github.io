@@ -1,5 +1,13 @@
 const projects = [
   {
+    name: "CharmCityJS Redesign",
+    img: "https://res.cloudinary.com/dcvgmixhx/image/upload/v1663877504/CCJS.png",
+    description:
+      "Redesign of charmcityjs.github.io using vanilla html, CSS, and JS. Designed architecture and wireframes baised off client's needs and branding.",
+    live: "https://samanthasolomon.com/Charm-City-JS/",
+    github: "https://github.com/SamanthaSolomon/Charm-City-JS",
+  },
+  {
     name: "Documentation Writing Sample",
     img: "https://res.cloudinary.com/dcvgmixhx/image/upload/v1663096054/docs-homepage_wwheej.png",
     description:
